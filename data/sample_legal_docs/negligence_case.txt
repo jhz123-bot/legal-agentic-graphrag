@@ -1,4 +1,4 @@
-In Johnson v. Metro Transit, the issue was negligence after a bus collision.
-Johnson claimed Metro Transit breached its duty of care.
-The court cited Restatement (Second) of Torts and discussed causation.
-Judgment was entered for Johnson because foreseeability and breach were established.
+在 Johnson v. Metro Transit 交通事故案中，争议焦点是 negligence（过失）责任。
+原告称 Metro Transit 违反 duty of care（注意义务），导致其受伤。
+法院围绕 causation（因果关系）与 foreseeability（可预见性）进行分析。
+法院最终支持原告请求，认定被告存在过失并应承担赔偿责任。

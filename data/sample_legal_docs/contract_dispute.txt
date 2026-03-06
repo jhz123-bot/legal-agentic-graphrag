@@ -1,4 +1,4 @@
-In Smith v. Acme Corp, the court reviewed a breach of contract claim.
-The plaintiff argued that Acme Corp failed to deliver goods by March 1, 2024.
-The agreement contained a liquidated damages clause under Section 12 of the contract.
-The court held that delayed delivery was material and awarded damages to Smith.
+在 Zhangsan v. Jia Corp 买卖合同纠纷案中，法院审查了 breach of contract（违约）主张。
+原告主张 Jia Corp 未在 March 1, 2024 前按约交付设备。
+合同第12条约定了违约金条款，并要求迟延履行承担赔偿责任。
+法院认为迟延交付构成根本违约，支持原告关于违约责任的请求。

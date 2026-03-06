@@ -1,14 +1,7 @@
-import os
 from pathlib import Path
-from typing import List
+import os
 
-from src.common.models import Document
-from src.graph.entity_linker import EntityLinker
-from src.graph.graph_builder import GraphBuilder
-from src.graph.store import InMemoryGraphStore
-from src.llm.ollama_client import OllamaClient
-from src.retrieval.evidence_formatter import format_evidence
-from src.retrieval.graph_retriever import GraphRetriever
+from src.agents.workflow import run_agentic_graphrag
 
 
 def load_env_file(path: Path) -> None:
@@ -25,66 +18,62 @@ def load_env_file(path: Path) -> None:
             os.environ[key] = value
 
 
-def load_documents(data_dir: Path) -> List[Document]:
-    docs: List[Document] = []
-    for path in sorted(data_dir.glob("*.txt")):
-        docs.append(Document(doc_id=path.stem, title=path.stem, text=path.read_text(encoding="utf-8")))
-    return docs
-
-
-def answer_with_fallback(client: OllamaClient, question: str, evidence_text: str) -> str:
-    system_prompt = (
-        "You are a legal QA assistant. Answer only from supplied evidence. "
-        "If evidence is incomplete, state uncertainty briefly."
-    )
-    user_prompt = f"Question:\n{question}\n\nEvidence:\n{evidence_text}\n\nAnswer:"
-    try:
-        return client.generate(prompt=user_prompt, system_prompt=system_prompt)
-    except Exception as exc:
-        return (
-            "Fallback answer (Ollama unavailable): Based on retrieved graph evidence, "
-            f"the likely answer is that the dispute centers on entities and relations shown above. Error: {exc}"
-        )
-
-
 def main() -> None:
     root = Path(__file__).parent
     load_env_file(root / ".env")
-    data_dir = root / "data" / "sample_legal_docs"
+    question = "在 Zhangsan v. Jia Corp 买卖合同纠纷中，法院如何认定违约责任，并依据哪些证据？"
 
-    question = "What did the court decide in Smith v. Acme Corp about breach of contract?"
+    print("步骤 1/6：运行 Agentic GraphRAG 工作流...")
+    state = run_agentic_graphrag(question)
 
-    print("Step 1/5: Loading sample legal documents...")
-    documents = load_documents(data_dir)
-    print(f"Loaded {len(documents)} documents.")
+    decomposition = state.get("decomposition", {})
+    print("\n步骤 2/6：查询拆解结果")
+    print(f"- 原始问题：{decomposition.get('original_query', question)}")
+    print(f"- 拆解方式：{decomposition.get('method', 'unknown')}")
+    for idx, subq in enumerate(decomposition.get("subqueries", []), start=1):
+        print(f"  {idx}. {subq}")
 
-    print("Step 2/5: Building knowledge graph...")
-    store = InMemoryGraphStore()
-    builder = GraphBuilder(store)
-    graph_store = builder.build(documents)
-    print(f"Graph has {len(graph_store.nodes)} nodes and {len(graph_store.edges)} edges before linking.")
+    print("\n步骤 3/6：证据排序结果（Top-K）")
+    for idx, path in enumerate(state.get("ranked_evidence", []), start=1):
+        print(
+            f"{idx}. score={path.get('score')} relation={path.get('relation')} "
+            f"source={path.get('source')} target={path.get('target')}"
+        )
+        evidence = (path.get("evidence") or "").replace("\n", " ")
+        if evidence:
+            print(f"   证据：{evidence[:120]}")
 
-    print("Step 3/5: Running entity linking...")
-    linker = EntityLinker()
-    graph_store = linker.link(graph_store)
-    print(f"Graph has {len(graph_store.nodes)} nodes and {len(graph_store.edges)} edges after linking.")
+    print("\n步骤 4/6：结构化推理轨迹")
+    reasoning_trace = state.get("reasoning_trace", {})
+    for step in reasoning_trace.get("structured_steps", []):
+        print(
+            f"step={step.get('step')} relation={step.get('relation')} "
+            f"结论={step.get('conclusion')}"
+        )
+        print(f"  使用证据：{step.get('evidence')}")
 
-    print("Step 4/5: Retrieving graph evidence...")
-    retriever = GraphRetriever(graph_store)
-    retrieved = retriever.retrieve(question=question, top_k_nodes=5, top_k_edges=8)
-    evidence_text = format_evidence(retrieved)
-    print(evidence_text)
+    print("\n步骤 5/6：反思策略决策")
+    verification = state.get("verification_result", {})
+    policy = verification.get("policy", {})
+    print(f"- 决策：{verification.get('decision')}")
+    print(f"- 置信度：{policy.get('confidence_score')}")
+    print(
+        f"- 评分细项：entity_coverage={policy.get('entity_coverage')}, "
+        f"evidence_consistency={policy.get('evidence_consistency')}, "
+        f"reasoning_depth={policy.get('reasoning_depth')}"
+    )
 
-    print("Step 5/5: Generating answer...")
-    ollama_base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-    ollama_model = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
-    client = OllamaClient(base_url=ollama_base_url, model=ollama_model)
-    answer = answer_with_fallback(client, question, evidence_text)
+    print("\n步骤 6/6：最终答案")
+    final_answer = state.get("final_answer", {})
+    print(f"问题：{question}")
+    print(f"短答案：{final_answer.get('short_answer')}")
+    print(f"推理摘要：{final_answer.get('reasoning_summary')}")
+    print(f"不确定性：{final_answer.get('uncertainty_note')}")
 
-    print("\nQuestion:")
-    print(question)
-    print("\nAnswer:")
-    print(answer)
+    if os.getenv("SHOW_DEMO_LOGS", "0") == "1":
+        print("\n调试日志：")
+        for line in state.get("logs", []):
+            print(f"- {line}")
 
 
 if __name__ == "__main__":
