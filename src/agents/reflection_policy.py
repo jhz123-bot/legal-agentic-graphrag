@@ -18,7 +18,12 @@ def evaluate_reflection_policy(
     else:
         entity_coverage = 1.0
 
-    evidence_count = len(evidence_pack.get("ranked_paths", evidence_pack.get("edges", [])))
+    evidence_count = len(
+        evidence_pack.get(
+            "reranked_paths",
+            evidence_pack.get("ranked_paths", evidence_pack.get("edges", [])),
+        )
+    )
     evidence_consistency = min(1.0, evidence_count / 5.0)
 
     structured_steps = reasoning_trace.get("structured_steps", [])

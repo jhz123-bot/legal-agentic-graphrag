@@ -4,14 +4,24 @@ from src.agents.query_decomposer import decompose_query
 from src.graph.entity_extraction import extract_entities
 
 
-def planner_node(state: Dict[str, Any]) -> Dict[str, Any]:
+def query_decomposition_node(state: Dict[str, Any]) -> Dict[str, Any]:
     user_query = state["user_query"]
     decomposition = decompose_query(user_query)
     subqueries = [user_query]
     for subq in decomposition.get("subqueries", []):
         if subq not in subqueries:
             subqueries.append(subq)
+    logs = list(state.get("logs", []))
+    logs.append(f"query_decomposition: method={decomposition.get('method', 'unknown')}, subqueries={len(subqueries)}")
+    plan = dict(state.get("plan", {}))
+    if plan:
+        plan["subqueries"] = subqueries
+    return {"decomposition": decomposition, "subqueries": subqueries, "plan": plan, "logs": logs}
 
+
+def planner_node(state: Dict[str, Any]) -> Dict[str, Any]:
+    user_query = state["user_query"]
+    subqueries = state.get("subqueries", [user_query])
     mentions = extract_entities(user_query, doc_id="query")
     target_entities: List[str] = []
     for mention in mentions:
@@ -35,6 +45,6 @@ def planner_node(state: Dict[str, Any]) -> Dict[str, Any]:
     logs = list(state.get("logs", []))
     logs.append(
         f"planner: intent={intent}, targets={target_entities}, "
-        f"decompose_method={decomposition.get('method', 'unknown')}"
+        f"subqueries={len(subqueries)}"
     )
-    return {"plan": plan, "decomposition": decomposition, "logs": logs}
+    return {"plan": plan, "logs": logs}
