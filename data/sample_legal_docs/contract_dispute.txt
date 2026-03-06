@@ -1,0 +1,4 @@
+In Smith v. Acme Corp, the court reviewed a breach of contract claim.
+The plaintiff argued that Acme Corp failed to deliver goods by March 1, 2024.
+The agreement contained a liquidated damages clause under Section 12 of the contract.
+The court held that delayed delivery was material and awarded damages to Smith.

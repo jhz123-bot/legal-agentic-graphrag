@@ -1,0 +1,13 @@
+ENTITY_TYPES = {
+    "CASE",
+    "PARTY",
+    "LEGAL_CONCEPT",
+    "STATUTE",
+    "DATE",
+}
+
+RELATION_TYPES = {
+    "MENTIONED_WITH",
+    "REFERENCES_STATUTE",
+    "INVOLVES_PARTY",
+}
