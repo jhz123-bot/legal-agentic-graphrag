@@ -1,0 +1,28 @@
+{
+  "phase": "round2",
+  "counts": {
+    "statutes": 120,
+    "cases": 100,
+    "faqs": 40
+  },
+  "raw_root": "data\\raw",
+  "cleaned_round_dir": "data\\cleaned\\round2",
+  "processed_dir": "data\\processed",
+  "added_fields": {
+    "statute": [
+      "law_name",
+      "chapter",
+      "article_no"
+    ],
+    "case": [
+      "case_id",
+      "court",
+      "case_type",
+      "dispute_focus",
+      "judgment"
+    ],
+    "faq": [
+      "topic"
+    ]
+  }
+}

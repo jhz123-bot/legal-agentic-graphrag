@@ -1,12 +1,13 @@
-import os
-import re
+﻿import re
 from typing import Dict, List, Optional
 
-from src.llm.ollama_client import OllamaClient
+from src.llm.base_provider import BaseLLMProvider
+from src.llm.llm_router import get_llm_provider
+from src.llm.prompts import render_prompt
 
 
 def _rule_based_decompose(query: str) -> List[str]:
-    parts = re.split(r"[？?；;，,]\s*|以及|并且|同时|并", query)
+    parts = re.split(r"[，。；;]\s*|以及|并且|同时|和", query)
     subqueries = [p.strip() for p in parts if p.strip()]
     if not subqueries:
         return [query.strip()]
@@ -15,14 +16,10 @@ def _rule_based_decompose(query: str) -> List[str]:
     return subqueries[:3]
 
 
-def _llm_decompose(query: str, client: OllamaClient) -> Optional[List[str]]:
-    prompt = (
-        "请将这个法律问答问题拆解为1到3个更小的检索子问题，"
-        "每行一个，不要编号，不要解释：\n"
-        f"{query}"
-    )
+def _llm_decompose(query: str, provider: BaseLLMProvider) -> Optional[List[str]]:
+    prompt = render_prompt("query_decomposition", query=query)
     try:
-        text = client.generate(prompt=prompt)
+        text = provider.generate(prompt=prompt, temperature=0.0)
     except Exception:
         return None
     lines = [line.strip(" -\t") for line in text.splitlines() if line.strip()]
@@ -33,11 +30,8 @@ def _llm_decompose(query: str, client: OllamaClient) -> Optional[List[str]]:
 
 
 def decompose_query(query: str) -> Dict[str, List[str] | str]:
-    base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-    model = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
-    client = OllamaClient(base_url=base_url, model=model, timeout=20)
-
-    llm_subqueries = _llm_decompose(query, client)
+    provider = get_llm_provider(timeout=20)
+    llm_subqueries = _llm_decompose(query, provider)
     if llm_subqueries:
         return {"original_query": query, "subqueries": llm_subqueries, "method": "llm"}
     return {"original_query": query, "subqueries": _rule_based_decompose(query), "method": "rule"}

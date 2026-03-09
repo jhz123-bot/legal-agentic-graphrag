@@ -1,0 +1,1 @@
+{"entities": [{"name": "股东应当按期足额缴纳认缴出资。", "type": "LawArticle"}, {"name": "未按期履行出资义务的，应依法向公司承担责任。", "type": "LawArticle"}], "triples": [{"subject": "未按期履行出资义务的，应依法向公司承担责任。", "relation": "APPLIES_TO", "object": "股东应当按期足额缴纳认缴出资。"}]}

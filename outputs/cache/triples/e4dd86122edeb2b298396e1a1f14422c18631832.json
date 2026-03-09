@@ -1,0 +1,1 @@
+{"entities": [{"name": "行为人因过错侵害他人民事权益造成损害的，应当承担侵权责任。", "type": "Crime"}, {"name": "民法典侵权责任编", "type": "LawArticle"}], "triples": [{"subject": "行为人因过错侵害他人民事权益造成损害的，应当承担侵权责任。", "relation": "APPLIES_TO", "object": "《中华人民共和国民法典》侵权责任编"}]}

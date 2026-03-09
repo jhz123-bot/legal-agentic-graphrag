@@ -1,20 +1,297 @@
-﻿[
+[
   {
-    "query": "在 Zhangsan v. Jia Corp 买卖合同纠纷中，法院如何认定违约责任？",
-    "expected_entities": ["Zhangsan v. Jia Corp", "Jia Corp", "Breach Of Contract"],
-    "expected_evidence_paths": ["INVOLVES_PARTY", "breach of contract", "March 1, 2024"],
-    "expected_answer_keywords": ["违约", "证据", "图谱"]
+    "id": 1,
+    "category": "法条定位类",
+    "query": "盗窃行为通常适用哪一条法律条文？",
+    "expected_entities": [
+      "盗窃罪",
+      "刑法第二百六十四条"
+    ],
+    "expected_evidence_paths": [
+      "盗窃罪",
+      "刑法第二百六十四条",
+      "APPLIES_TO"
+    ],
+    "expected_answer_keywords": [
+      "刑法第二百六十四条",
+      "盗窃罪"
+    ],
+    "question_type": "statute_lookup",
+    "source_type": "statute_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "graph",
+    "expected_evidence_ids": []
   },
   {
-    "query": "在 Lee v. Green Properties 案中，驱逐行为是否合法？",
-    "expected_entities": ["Lee v. Green Properties", "Green Properties", "Wrongful Eviction"],
-    "expected_evidence_paths": ["INVOLVES_PARTY", "wrongful eviction", "第8条"],
-    "expected_answer_keywords": ["驱逐", "程序", "证据"]
+    "id": 2,
+    "category": "法条定位类",
+    "query": "合同一方违约后，通常依据哪条规定承担责任？",
+    "expected_entities": [
+      "违约责任",
+      "民法典第五百七十七条"
+    ],
+    "expected_evidence_paths": [
+      "违约责任",
+      "民法典第五百七十七条",
+      "赔偿损失"
+    ],
+    "expected_answer_keywords": [
+      "民法典第五百七十七条",
+      "继续履行",
+      "赔偿损失"
+    ],
+    "question_type": "statute_lookup",
+    "source_type": "statute_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "graph",
+    "expected_evidence_ids": []
   },
   {
-    "query": "在 Johnson v. Metro Transit 过失责任案中，原告为何胜诉？",
-    "expected_entities": ["Johnson v. Metro Transit", "Metro Transit", "Negligence"],
-    "expected_evidence_paths": ["INVOLVES_PARTY", "negligence", "causation"],
-    "expected_answer_keywords": ["过失", "因果关系", "证据"]
+    "id": 3,
+    "category": "法条定位类",
+    "query": "侵权责任一般依据民法典哪一条进行判断？",
+    "expected_entities": [
+      "侵权责任",
+      "民法典第一千一百六十五条"
+    ],
+    "expected_evidence_paths": [
+      "侵权责任",
+      "民法典第一千一百六十五条",
+      "过错"
+    ],
+    "expected_answer_keywords": [
+      "民法典第一千一百六十五条",
+      "过错",
+      "侵权责任"
+    ],
+    "question_type": "statute_lookup",
+    "source_type": "statute_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "graph",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 4,
+    "category": "案例支撑类",
+    "query": "张某深夜进入商铺盗取财物的案件，法院通常如何认定？",
+    "expected_entities": [
+      "张某",
+      "盗窃罪",
+      "刑法第二百六十四条"
+    ],
+    "expected_evidence_paths": [
+      "案件_盗窃_001",
+      "张某",
+      "刑法第二百六十四条"
+    ],
+    "expected_answer_keywords": [
+      "盗窃罪",
+      "退赃",
+      "从轻处罚"
+    ],
+    "question_type": "case_reasoning",
+    "source_type": "case_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "vector",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 5,
+    "category": "案例支撑类",
+    "query": "甲公司与乙公司买卖合同中逾期交付且质量不合格，法院通常支持哪些请求？",
+    "expected_entities": [
+      "甲公司",
+      "乙公司",
+      "民法典第五百七十七条"
+    ],
+    "expected_evidence_paths": [
+      "案件_合同违约_001",
+      "继续履行",
+      "赔偿损失"
+    ],
+    "expected_answer_keywords": [
+      "构成违约",
+      "继续履行",
+      "赔偿损失"
+    ],
+    "question_type": "case_reasoning",
+    "source_type": "hybrid",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "hybrid",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 6,
+    "category": "案例支撑类",
+    "query": "承租人连续逾期支付租金时，出租人是否可以解除合同？",
+    "expected_entities": [
+      "承租人",
+      "出租人",
+      "民法典第七百二十一条"
+    ],
+    "expected_evidence_paths": [
+      "案件_租赁纠纷_001",
+      "逾期支付租金",
+      "解除租赁合同"
+    ],
+    "expected_answer_keywords": [
+      "补缴租金",
+      "违约责任",
+      "解除租赁合同"
+    ],
+    "question_type": "case_reasoning",
+    "source_type": "hybrid",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "hybrid",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 7,
+    "category": "案例支撑类",
+    "query": "股东未按期足额出资引发公司纠纷时，法院一般如何处理？",
+    "expected_entities": [
+      "股东",
+      "公司法第四十九条",
+      "补足出资"
+    ],
+    "expected_evidence_paths": [
+      "案件_公司纠纷_001",
+      "公司法第四十九条",
+      "补足出资"
+    ],
+    "expected_answer_keywords": [
+      "补足出资",
+      "承担责任",
+      "股东"
+    ],
+    "question_type": "case_reasoning",
+    "source_type": "case_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "vector",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 8,
+    "category": "案例支撑类",
+    "query": "解除劳动关系后主张经济补偿，法院通常依据什么标准？",
+    "expected_entities": [
+      "劳动合同法第四十七条",
+      "经济补偿",
+      "张某"
+    ],
+    "expected_evidence_paths": [
+      "案件_劳动争议_001",
+      "劳动合同法第四十七条",
+      "经济补偿"
+    ],
+    "expected_answer_keywords": [
+      "工作年限",
+      "一个月工资",
+      "经济补偿"
+    ],
+    "question_type": "case_reasoning",
+    "source_type": "case_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "vector",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 9,
+    "category": "多步推理类",
+    "query": "房屋租赁中承租人逾期支付租金，出租人主张解除合同并要求赔偿，法律上如何衔接？",
+    "expected_entities": [
+      "租赁合同",
+      "民法典第七百二十一条",
+      "民法典第五百七十七条"
+    ],
+    "expected_evidence_paths": [
+      "逾期支付租金",
+      "解除合同",
+      "违约责任"
+    ],
+    "expected_answer_keywords": [
+      "催告",
+      "解除合同",
+      "违约责任"
+    ],
+    "question_type": "multiturn_followup",
+    "source_type": "hybrid",
+    "requires_multiturn": true,
+    "expected_retrieval_strategy": "hybrid",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 10,
+    "category": "多步推理类",
+    "query": "交通碰撞造成人身损害时，如何从过错到赔偿范围进行法律判断？",
+    "expected_entities": [
+      "侵权责任",
+      "民法典第一千一百六十五条",
+      "损害赔偿"
+    ],
+    "expected_evidence_paths": [
+      "过错",
+      "因果关系",
+      "赔偿"
+    ],
+    "expected_answer_keywords": [
+      "过错",
+      "因果关系",
+      "医疗费"
+    ],
+    "question_type": "case_reasoning",
+    "source_type": "hybrid",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "hybrid",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 11,
+    "category": "FAQ类",
+    "query": "劳动争议起诉前是不是一定要先仲裁？",
+    "expected_entities": [
+      "劳动争议",
+      "劳动争议调解仲裁法第二条"
+    ],
+    "expected_evidence_paths": [
+      "劳动争议",
+      "仲裁",
+      "起诉"
+    ],
+    "expected_answer_keywords": [
+      "先仲裁",
+      "再起诉",
+      "劳动争议"
+    ],
+    "question_type": "concept_definition",
+    "source_type": "statute_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "graph",
+    "expected_evidence_ids": []
+  },
+  {
+    "id": 12,
+    "category": "FAQ类",
+    "query": "公司对外债务通常由谁承担？",
+    "expected_entities": [
+      "公司法第三条",
+      "公司债务",
+      "公司"
+    ],
+    "expected_evidence_paths": [
+      "公司法第三条",
+      "全部财产",
+      "债务"
+    ],
+    "expected_answer_keywords": [
+      "公司",
+      "全部财产",
+      "债务责任"
+    ],
+    "question_type": "concept_definition",
+    "source_type": "statute_only",
+    "requires_multiturn": false,
+    "expected_retrieval_strategy": "graph",
+    "expected_evidence_ids": []
   }
 ]

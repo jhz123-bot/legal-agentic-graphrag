@@ -1,0 +1,1 @@
+{"entities": [{"name": "买卖合同", "type": "LawArticle"}, {"name": "卖方", "type": "Party"}, {"name": "买方", "type": "Party"}, {"name": "停工并产生替代采购成本", "type": "Circumstance"}], "triples": [{"subject": "法院", "relation": "DECIDED_BY", "object": "赔偿范围"}, {"subject": "赔偿范围", "relation": "APPLIES_TO", "object": "可得利益损失与合理支出"}]}

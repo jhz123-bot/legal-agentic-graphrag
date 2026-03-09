@@ -1,0 +1,1 @@
+{"entities": [{"name": "当事人对自己提出的主张，有责任提供证据。", "type": "LawArticle"}, {"name": "人民法院根据法定程序全面、客观审查证据。", "type": "LawArticle"}], "triples": [{"subject": "当事人对自己提出的主张，有责任提供证据。", "relation": "APPLIES_TO", "object": "无"}, {"subject": "人民法院根据法定程序全面、客观审查证据。", "relation": "APPLIES_TO", "object": "无"}]}

@@ -1,0 +1,1 @@
+{"entities": [{"name": "股东应当按期足额缴纳认缴出资。", "type": "Crime"}, {"name": "未按期履行出资义务的，应依法向公司承担责任。", "type": "Crime"}], "triples": [{"subject": "未按期履行出资义务的", "relation": "APPLIES_TO", "object": "《中华人民共和国公司法》"}]}

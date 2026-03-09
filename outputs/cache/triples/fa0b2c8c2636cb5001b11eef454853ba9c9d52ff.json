@@ -1,0 +1,1 @@
+{"entities": [{"name": "二人以上分别实施侵权行为", "type": "Crime"}, {"name": "民法典", "type": "LawArticle"}], "triples": [{"subject": "民法典", "relation": "APPLIES_TO", "object": "二人以上分别实施侵权行为"}]}

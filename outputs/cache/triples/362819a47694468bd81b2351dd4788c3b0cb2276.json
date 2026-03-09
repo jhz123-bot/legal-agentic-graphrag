@@ -1,0 +1,1 @@
+{"entities": [{"name": "承租人无正当理由逾期支付租金", "type": "Crime"}, {"name": "出租人", "type": "Party"}, {"name": "违约责任", "type": "Liability"}], "triples": [{"subject": "出租人", "relation": "APPLIES_TO", "object": "依法主张解除合同并请求违约责任"}]}

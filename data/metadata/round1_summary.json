@@ -1,0 +1,9 @@
+{
+  "phase": "round1",
+  "statutes": 50,
+  "cases": 30,
+  "faqs": 20,
+  "raw_root": "data\\raw",
+  "cleaned_round_dir": "data\\cleaned\\round1",
+  "processed_dir": "data\\processed"
+}

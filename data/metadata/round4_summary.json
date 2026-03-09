@@ -1,0 +1,58 @@
+{
+  "phase": "round4",
+  "counts": {
+    "statutes": 300,
+    "cases": 300,
+    "faqs": 100
+  },
+  "raw_counts": {
+    "statutes": 320,
+    "cases": 320,
+    "faqs": 110
+  },
+  "raw_root": "data\\raw",
+  "cleaned_round_dir": "data\\cleaned\\round4",
+  "processed_dir": "data\\processed",
+  "added_fields": {
+    "statute": [
+      "law_name",
+      "chapter",
+      "article_no"
+    ],
+    "case": [
+      "case_id",
+      "court",
+      "case_type",
+      "dispute_focus",
+      "judgment"
+    ],
+    "faq": [
+      "topic"
+    ]
+  },
+  "dedup": {
+    "statutes": {
+      "removed": 20,
+      "reasons": {
+        "duplicate_article_no": 20,
+        "duplicate_title": 0,
+        "duplicate_content": 0
+      }
+    },
+    "cases": {
+      "removed": 20,
+      "reasons": {
+        "duplicate_case_id": 20,
+        "duplicate_title": 0,
+        "duplicate_content": 0
+      }
+    },
+    "faqs": {
+      "removed": 10,
+      "reasons": {
+        "duplicate_question_exact": 10,
+        "duplicate_question_near": 0
+      }
+    }
+  }
+}

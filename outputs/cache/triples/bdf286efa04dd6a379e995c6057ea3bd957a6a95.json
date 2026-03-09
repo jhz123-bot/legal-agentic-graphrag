@@ -1,0 +1,1 @@
+{"entities": [{"name": "承租人无正当理由逾期支付租金", "type": "Crime"}, {"name": "出租人可催告其在合理期限内支付", "type": "LawArticle"}, {"name": "出租人可依法主张解除合同并请求违约责任", "type": "LawArticle"}], "triples": [{"subject": "出租人可依法主张解除合同并请求违约责任", "relation": "APPLIES_TO", "object": "承租人无正当理由逾期支付租金"}]}

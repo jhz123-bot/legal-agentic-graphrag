@@ -1,0 +1,3040 @@
+[
+  {
+    "source": "case::案例_case_03_robbery_example_0",
+    "target": "legal_concept::抢劫罪",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "legal_concept::抢劫罪",
+    "target": "case::案例_case_03_robbery_example_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "case::案例_case_03_robbery_example_0",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "party::被告",
+    "target": "case::案例_case_03_robbery_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "case::案例_case_03_robbery_example_0",
+    "target": "party::王某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "party::王某",
+    "target": "case::案例_case_03_robbery_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "legal_concept::抢劫罪",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "party::被告",
+    "target": "legal_concept::抢劫罪",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "legal_concept::抢劫罪",
+    "target": "party::王某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "party::王某",
+    "target": "legal_concept::抢劫罪",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::王某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "party::王某",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（抢劫）：\n被告人王某持械拦截行人并夺取手机、现金。"
+  },
+  {
+    "source": "legal_concept::抢劫罪",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定其以暴力方式非法占有他人财物，构成抢劫罪，依法判处有期徒刑并处罚金。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::抢劫罪",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定其以暴力方式非法占有他人财物，构成抢劫罪，依法判处有期徒刑并处罚金。"
+  },
+  {
+    "source": "case::案例_case_04_fraud_example_0",
+    "target": "legal_concept::诈骗罪",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "legal_concept::诈骗罪",
+    "target": "case::案例_case_04_fraud_example_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "case::案例_case_04_fraud_example_0",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "party::被告",
+    "target": "case::案例_case_04_fraud_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "case::案例_case_04_fraud_example_0",
+    "target": "party::刘某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "party::刘某",
+    "target": "case::案例_case_04_fraud_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "legal_concept::诈骗罪",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "party::被告",
+    "target": "legal_concept::诈骗罪",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "legal_concept::诈骗罪",
+    "target": "party::刘某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "party::刘某",
+    "target": "legal_concept::诈骗罪",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::刘某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "party::刘某",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（诈骗）：\n被告人刘某虚构投资项目，向多名被害人收取款项后挥霍。"
+  },
+  {
+    "source": "legal_concept::诈骗罪",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为其以非法占有为目的，虚构事实骗取财物，构成诈骗罪，责令退赔并依法判刑。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::诈骗罪",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为其以非法占有为目的，虚构事实骗取财物，构成诈骗罪，责令退赔并依法判刑。"
+  },
+  {
+    "source": "case::案例_case_05_occupation_example_0",
+    "target": "legal_concept::职务侵占",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "legal_concept::职务侵占",
+    "target": "case::案例_case_05_occupation_example_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "case::案例_case_05_occupation_example_0",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "case::案例_case_05_occupation_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "case::案例_case_05_occupation_example_0",
+    "target": "party::陈某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "party::陈某",
+    "target": "case::案例_case_05_occupation_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "legal_concept::职务侵占",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "legal_concept::职务侵占",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "legal_concept::职务侵占",
+    "target": "party::陈某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "party::陈某",
+    "target": "legal_concept::职务侵占",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "party::陈某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "party::陈某",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（职务侵占）：\n某公司仓管员陈某利用保管便利，多次将库存材料私自出售获利。"
+  },
+  {
+    "source": "legal_concept::职务侵占",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定其利用职务便利非法占有单位财物，构成职务侵占罪，判令退赔并承担刑事责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::职务侵占",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定其利用职务便利非法占有单位财物，构成职务侵占罪，判令退赔并承担刑事责任。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_0",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（预期违约）：\n甲公司在履行期限届满前书面表示无法继续供货。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "case::案例_case_06_anticipatory_breach_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（预期违约）：\n甲公司在履行期限届满前书面表示无法继续供货。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_0",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（预期违约）：\n甲公司在履行期限届满前书面表示无法继续供货。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "case::案例_case_06_anticipatory_breach_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（预期违约）：\n甲公司在履行期限届满前书面表示无法继续供货。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（预期违约）：\n甲公司在履行期限届满前书面表示无法继续供货。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（预期违约）：\n甲公司在履行期限届满前书面表示无法继续供货。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司据此起诉主张违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司据此起诉主张违约责任。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_1",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "case::案例_case_06_anticipatory_breach_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_1",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "case::案例_case_06_anticipatory_breach_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_1",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::法院",
+    "target": "case::案例_case_06_anticipatory_breach_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_1",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "case::案例_case_06_anticipatory_breach_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "case::案例_case_06_anticipatory_breach_1",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "case::案例_case_06_anticipatory_breach_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为甲公司已明确表示不履行主要债务，支持乙公司关于违约责任的诉请。"
+  },
+  {
+    "source": "case::案例_case_07_damage_scope_0",
+    "target": "legal_concept::损失赔偿",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（损失赔偿）：\n买卖合同履行中，卖方迟延交货导致买方停工并产生替代采购成本。"
+  },
+  {
+    "source": "legal_concept::损失赔偿",
+    "target": "case::案例_case_07_damage_scope_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（损失赔偿）：\n买卖合同履行中，卖方迟延交货导致买方停工并产生替代采购成本。"
+  },
+  {
+    "source": "case::案例_case_07_damage_scope_0",
+    "target": "legal_concept::买卖合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（损失赔偿）：\n买卖合同履行中，卖方迟延交货导致买方停工并产生替代采购成本。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "case::案例_case_07_damage_scope_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（损失赔偿）：\n买卖合同履行中，卖方迟延交货导致买方停工并产生替代采购成本。"
+  },
+  {
+    "source": "legal_concept::损失赔偿",
+    "target": "legal_concept::买卖合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（损失赔偿）：\n买卖合同履行中，卖方迟延交货导致买方停工并产生替代采购成本。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "legal_concept::损失赔偿",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（损失赔偿）：\n买卖合同履行中，卖方迟延交货导致买方停工并产生替代采购成本。"
+  },
+  {
+    "source": "case::案例_case_08_liquidated_adjustment_0",
+    "target": "legal_concept::违约金",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（违约金调整）：\n双方约定高额违约金，违约后守约方起诉请求全额支付。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "case::案例_case_08_liquidated_adjustment_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（违约金调整）：\n双方约定高额违约金，违约后守约方起诉请求全额支付。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为约定金额明显高于实际损失，依法酌情下调违约金数额。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约金",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为约定金额明显高于实际损失，依法酌情下调违约金数额。"
+  },
+  {
+    "source": "case::案例_case_09_lease_arrears_0",
+    "target": "party::赵某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（租赁逾期付款）：\n承租人赵某连续三个月未按约支付租金，出租人多次催告未果后起诉。"
+  },
+  {
+    "source": "party::赵某",
+    "target": "case::案例_case_09_lease_arrears_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（租赁逾期付款）：\n承租人赵某连续三个月未按约支付租金，出租人多次催告未果后起诉。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定赵某构成违约，支持解除合同并判令支付欠付租金及违约金。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约金",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定赵某构成违约，支持解除合同并判令支付欠付租金及违约金。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "party::赵某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定赵某构成违约，支持解除合同并判令支付欠付租金及违约金。"
+  },
+  {
+    "source": "party::赵某",
+    "target": "legal_concept::违约金",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定赵某构成违约，支持解除合同并判令支付欠付租金及违约金。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::赵某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定赵某构成违约，支持解除合同并判令支付欠付租金及违约金。"
+  },
+  {
+    "source": "party::赵某",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定赵某构成违约，支持解除合同并判令支付欠付租金及违约金。"
+  },
+  {
+    "source": "case::案例_case_10_tort_injury_0",
+    "target": "party::李某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（侵权损害）：\n李某驾驶车辆违反通行规则与行人发生碰撞，造成人身损害。"
+  },
+  {
+    "source": "party::李某",
+    "target": "case::案例_case_10_tort_injury_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（侵权损害）：\n李某驾驶车辆违反通行规则与行人发生碰撞，造成人身损害。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::李某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院根据过错程度、医疗费用与鉴定意见，判令李某承担相应侵权赔偿责任。"
+  },
+  {
+    "source": "party::李某",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院根据过错程度、医疗费用与鉴定意见，判令李某承担相应侵权赔偿责任。"
+  },
+  {
+    "source": "case::案例_case_11_joint_tort_0",
+    "target": "legal_concept::共同侵权",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "case::案例_case_11_joint_tort_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "case::案例_case_11_joint_tort_0",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "party::被告",
+    "target": "case::案例_case_11_joint_tort_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "case::案例_case_11_joint_tort_0",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_11_joint_tort_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "party::被告",
+    "target": "legal_concept::共同侵权",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "party::原告",
+    "target": "legal_concept::共同侵权",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "party::原告",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（共同侵权）：\n两名被告分别实施不当行为共同导致原告设备损坏。"
+  },
+  {
+    "source": "case::案例_case_121_sale_delay_scope_reasoning_0",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿【案例摘要】乙公司迟延交货导致甲公司停工并临时高价采购。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "case::案例_case_121_sale_delay_scope_reasoning_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿【案例摘要】乙公司迟延交货导致甲公司停工并临时高价采购。"
+  },
+  {
+    "source": "case::案例_case_121_sale_delay_scope_reasoning_0",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿【案例摘要】乙公司迟延交货导致甲公司停工并临时高价采购。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "case::案例_case_121_sale_delay_scope_reasoning_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿【案例摘要】乙公司迟延交货导致甲公司停工并临时高价采购。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿【案例摘要】乙公司迟延交货导致甲公司停工并临时高价采购。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿【案例摘要】乙公司迟延交货导致甲公司停工并临时高价采购。"
+  },
+  {
+    "source": "case::案例_case_121_sale_delay_scope_reasoning_1",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为，停工损失与替代采购差价属于违约损失范围；"
+  },
+  {
+    "source": "party::法院",
+    "target": "case::案例_case_121_sale_delay_scope_reasoning_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为，停工损失与替代采购差价属于违约损失范围；"
+  },
+  {
+    "source": "case::案例_case_122_property_no_registration_reasoning_1",
+    "target": "legal_concept::物权变动",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为，仅有合同不足以直接产生物权变动效力，登记仍是关键生效要件。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "case::案例_case_122_property_no_registration_reasoning_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为，仅有合同不足以直接产生物权变动效力，登记仍是关键生效要件。"
+  },
+  {
+    "source": "case::案例_case_122_property_no_registration_reasoning_1",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为，仅有合同不足以直接产生物权变动效力，登记仍是关键生效要件。"
+  },
+  {
+    "source": "party::法院",
+    "target": "case::案例_case_122_property_no_registration_reasoning_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为，仅有合同不足以直接产生物权变动效力，登记仍是关键生效要件。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为，仅有合同不足以直接产生物权变动效力，登记仍是关键生效要件。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::物权变动",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为，仅有合同不足以直接产生物权变动效力，登记仍是关键生效要件。"
+  },
+  {
+    "source": "case::案例_case_12_capital_contribution_0",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（公司出资纠纷）：\n股东周某未按章程约定期限缴纳认缴出资，公司诉请其补足出资并承担违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "case::案例_case_12_capital_contribution_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（公司出资纠纷）：\n股东周某未按章程约定期限缴纳认缴出资，公司诉请其补足出资并承担违约责任。"
+  },
+  {
+    "source": "case::案例_case_12_capital_contribution_0",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（公司出资纠纷）：\n股东周某未按章程约定期限缴纳认缴出资，公司诉请其补足出资并承担违约责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "case::案例_case_12_capital_contribution_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（公司出资纠纷）：\n股东周某未按章程约定期限缴纳认缴出资，公司诉请其补足出资并承担违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（公司出资纠纷）：\n股东周某未按章程约定期限缴纳认缴出资，公司诉请其补足出资并承担违约责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（公司出资纠纷）：\n股东周某未按章程约定期限缴纳认缴出资，公司诉请其补足出资并承担违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院支持公司诉请，判令周某在限定期限内补缴出资并承担相应责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院支持公司诉请，判令周某在限定期限内补缴出资并承担相应责任。"
+  },
+  {
+    "source": "case::案例_case_13_director_duty_0",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未履行审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "case::案例_case_13_director_duty_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未履行审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "case::案例_case_13_director_duty_0",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未履行审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "case::案例_case_13_director_duty_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未履行审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未履行审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未履行审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定其违反勤勉义务，判令其向公司承担赔偿责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定其违反勤勉义务，判令其向公司承担赔偿责任。"
+  },
+  {
+    "source": "statute::不动产物权变动",
+    "target": "legal_concept::法院",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）：\n甲乙双方就房屋产权归属发生争议，乙方主张仅凭合同即取得物权。\n法院指出不动产物权变动依法以登记为准，结合登记簿记载确定权利归属。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院指出不动产物权变动依法以登记为准，结合登记簿记载确定权利归属。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::物权变动",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院指出不动产物权变动依法以登记为准，结合登记簿记载确定权利归属。"
+  },
+  {
+    "source": "party::甲乙双方",
+    "target": "legal_concept::房屋产权归属争议",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "legal_concept::房屋产权归属争议",
+    "target": "party::甲乙双方",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "party::甲乙双方",
+    "target": "party::乙方",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "party::乙方",
+    "target": "party::甲乙双方",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "party::甲乙双方",
+    "target": "statute::不动产物权变动",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "statute::不动产物权变动",
+    "target": "party::甲乙双方",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "legal_concept::房屋产权归属争议",
+    "target": "party::乙方",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "party::乙方",
+    "target": "legal_concept::房屋产权归属争议",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "legal_concept::房屋产权归属争议",
+    "target": "statute::不动产物权变动",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "statute::不动产物权变动",
+    "target": "legal_concept::房屋产权归属争议",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "party::乙方",
+    "target": "statute::不动产物权变动",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "statute::不动产物权变动",
+    "target": "party::乙方",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（物权登记）："
+  },
+  {
+    "source": "legal_concept::原告",
+    "target": "legal_concept::已交付货物",
+    "relation": "INVOLVES",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（证据责任）：\n合同价款争议中，原告主张已交付货物但未提交完整签收凭证。"
+  },
+  {
+    "source": "legal_concept::原告",
+    "target": "legal_concept::未提交完整签收凭证",
+    "relation": "HAS_CIRCUMSTANCE",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（证据责任）：\n合同价款争议中，原告主张已交付货物但未提交完整签收凭证。"
+  },
+  {
+    "source": "case::案例_case_15_burden_of_proof_0",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（证据责任）：\n合同价款争议中，原告主张已交付货物但未提交完整签收凭证。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_15_burden_of_proof_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例摘要（证据责任）：\n合同价款争议中，原告主张已交付货物但未提交完整签收凭证。"
+  },
+  {
+    "source": "case::案例_case_15_burden_of_proof_1",
+    "target": "legal_concept::举证责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "case::案例_case_15_burden_of_proof_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "case::案例_case_15_burden_of_proof_1",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "party::法院",
+    "target": "case::案例_case_15_burden_of_proof_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "case::案例_case_15_burden_of_proof_1",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_15_burden_of_proof_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::举证责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "party::原告",
+    "target": "legal_concept::举证责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "party::原告",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成相应举证责任，对其部分诉请不予支持。"
+  },
+  {
+    "source": "case::案例_case_16_company_capital_claim_0",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（公司出资责任）：\n甲公司起诉股东周某未按期缴纳认缴出资，请求补足出资并承担责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "case::案例_case_16_company_capital_claim_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（公司出资责任）：\n甲公司起诉股东周某未按期缴纳认缴出资，请求补足出资并承担责任。"
+  },
+  {
+    "source": "case::案例_case_16_company_capital_claim_0",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（公司出资责任）：\n甲公司起诉股东周某未按期缴纳认缴出资，请求补足出资并承担责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "case::案例_case_16_company_capital_claim_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（公司出资责任）：\n甲公司起诉股东周某未按期缴纳认缴出资，请求补足出资并承担责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（公司出资责任）：\n甲公司起诉股东周某未按期缴纳认缴出资，请求补足出资并承担责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（公司出资责任）：\n甲公司起诉股东周某未按期缴纳认缴出资，请求补足出资并承担责任。"
+  },
+  {
+    "source": "case::案例_case_16_company_capital_claim_1",
+    "target": "statute::公司法",
+    "relation": "CITES",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "statute::公司法",
+    "target": "case::案例_case_16_company_capital_claim_1",
+    "relation": "CITES",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "case::案例_case_16_company_capital_claim_1",
+    "target": "legal_concept::股东出资义务",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "legal_concept::股东出资义务",
+    "target": "case::案例_case_16_company_capital_claim_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "case::案例_case_16_company_capital_claim_1",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "case::案例_case_16_company_capital_claim_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "case::案例_case_16_company_capital_claim_1",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "case::案例_case_16_company_capital_claim_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "statute::公司法",
+    "target": "legal_concept::股东出资义务",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "legal_concept::股东出资义务",
+    "target": "statute::公司法",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "statute::公司法",
+    "target": "party::法院",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "statute::公司法",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "statute::公司法",
+    "target": "party::周某",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "statute::公司法",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "legal_concept::股东出资义务",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::股东出资义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "legal_concept::股东出资义务",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "legal_concept::股东出资义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::周某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "party::周某",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为周某违反公司法关于股东出资义务的规定，判令其在限期内补足出资并承担相应责任。"
+  },
+  {
+    "source": "case::案例_case_17_director_duty_loss_0",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未尽审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "case::案例_case_17_director_duty_loss_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未尽审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "case::案例_case_17_director_duty_loss_0",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未尽审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "case::案例_case_17_director_duty_loss_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未尽审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未尽审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（董事勤勉义务）：\n某公司董事在重大交易中未尽审慎审查义务，导致公司遭受损失。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定董事违反勤勉义务，判令其向公司承担赔偿责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定董事违反勤勉义务，判令其向公司承担赔偿责任。"
+  },
+  {
+    "source": "case::案例_case_18_lease_cure_termination_0",
+    "target": "party::赵某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（租赁催告与解除）：\n承租人赵某逾期支付租金，出租人发出催告后赵某仍未履行。"
+  },
+  {
+    "source": "party::赵某",
+    "target": "case::案例_case_18_lease_cure_termination_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（租赁催告与解除）：\n承租人赵某逾期支付租金，出租人发出催告后赵某仍未履行。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "legal_concept::租赁合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认定承租人构成违约，支持出租人解除租赁合同并支付欠付租金与违约金。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "legal_concept::违约金",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认定承租人构成违约，支持出租人解除租赁合同并支付欠付租金与违约金。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定承租人构成违约，支持出租人解除租赁合同并支付欠付租金与违约金。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约金",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定承租人构成违约，支持出租人解除租赁合同并支付欠付租金与违约金。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定承租人构成违约，支持出租人解除租赁合同并支付欠付租金与违约金。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::租赁合同",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定承租人构成违约，支持出租人解除租赁合同并支付欠付租金与违约金。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "legal_concept::租赁合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院支持解除租赁合同，判令承租人支付欠租及违约责任。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院支持解除租赁合同，判令承租人支付欠租及违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院支持解除租赁合同，判令承租人支付欠租及违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院支持解除租赁合同，判令承租人支付欠租及违约责任。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院支持解除租赁合同，判令承租人支付欠租及违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::租赁合同",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院支持解除租赁合同，判令承租人支付欠租及违约责任。"
+  },
+  {
+    "source": "case::案例_case_20_anticipatory_breach_notice_0",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（预期违约）：\n甲公司在履行期限届满前明确表示不再履行供货义务。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "case::案例_case_20_anticipatory_breach_notice_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（预期违约）：\n甲公司在履行期限届满前明确表示不再履行供货义务。"
+  },
+  {
+    "source": "case::案例_case_20_anticipatory_breach_notice_0",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（预期违约）：\n甲公司在履行期限届满前明确表示不再履行供货义务。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "case::案例_case_20_anticipatory_breach_notice_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（预期违约）：\n甲公司在履行期限届满前明确表示不再履行供货义务。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（预期违约）：\n甲公司在履行期限届满前明确表示不再履行供货义务。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（预期违约）：\n甲公司在履行期限届满前明确表示不再履行供货义务。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "乙公司据此主张预期违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "乙公司据此主张预期违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司据此主张预期违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司据此主张预期违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司据此主张预期违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司据此主张预期违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::预期违约",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定甲公司构成预期违约，支持乙公司在到期前请求违约责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::损失赔偿",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "法院依据民法典关于损失赔偿与可预见规则，支持合理范围内的可得利益赔偿。"
+  },
+  {
+    "source": "legal_concept::损失赔偿",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "法院依据民法典关于损失赔偿与可预见规则，支持合理范围内的可得利益赔偿。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "party::法院",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "法院依据民法典关于损失赔偿与可预见规则，支持合理范围内的可得利益赔偿。"
+  },
+  {
+    "source": "party::法院",
+    "target": "statute::民法典",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "法院依据民法典关于损失赔偿与可预见规则，支持合理范围内的可得利益赔偿。"
+  },
+  {
+    "source": "legal_concept::损失赔偿",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院依据民法典关于损失赔偿与可预见规则，支持合理范围内的可得利益赔偿。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::损失赔偿",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院依据民法典关于损失赔偿与可预见规则，支持合理范围内的可得利益赔偿。"
+  },
+  {
+    "source": "case::案例_case_22_joint_tort_allocation_0",
+    "target": "legal_concept::侵权责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "case::案例_case_22_joint_tort_allocation_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "case::案例_case_22_joint_tort_allocation_0",
+    "target": "legal_concept::共同侵权",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "case::案例_case_22_joint_tort_allocation_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "case::案例_case_22_joint_tort_allocation_0",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::被告",
+    "target": "case::案例_case_22_joint_tort_allocation_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "case::案例_case_22_joint_tort_allocation_0",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_22_joint_tort_allocation_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "legal_concept::共同侵权",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "legal_concept::侵权责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::被告",
+    "target": "legal_concept::侵权责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::原告",
+    "target": "legal_concept::侵权责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::被告",
+    "target": "legal_concept::共同侵权",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::原告",
+    "target": "legal_concept::共同侵权",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "party::原告",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（共同侵权责任分配）：\n两名被告共同导致原告设备受损，双方均存在过错。"
+  },
+  {
+    "source": "case::案例_case_23_traffic_injury_compensation_0",
+    "target": "party::李某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（交通事故侵权）：\n李某驾驶车辆违规与行人相撞，造成原告人身损害。"
+  },
+  {
+    "source": "party::李某",
+    "target": "case::案例_case_23_traffic_injury_compensation_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（交通事故侵权）：\n李某驾驶车辆违规与行人相撞，造成原告人身损害。"
+  },
+  {
+    "source": "case::案例_case_23_traffic_injury_compensation_0",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（交通事故侵权）：\n李某驾驶车辆违规与行人相撞，造成原告人身损害。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_23_traffic_injury_compensation_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（交通事故侵权）：\n李某驾驶车辆违规与行人相撞，造成原告人身损害。"
+  },
+  {
+    "source": "party::李某",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（交通事故侵权）：\n李某驾驶车辆违规与行人相撞，造成原告人身损害。"
+  },
+  {
+    "source": "party::原告",
+    "target": "party::李某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（交通事故侵权）：\n李某驾驶车辆违规与行人相撞，造成原告人身损害。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::李某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院结合过错、医疗费与因果关系，判令李某承担侵权赔偿责任。"
+  },
+  {
+    "source": "party::李某",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院结合过错、医疗费与因果关系，判令李某承担侵权赔偿责任。"
+  },
+  {
+    "source": "case::案例_case_24_property_no_registration_0",
+    "target": "legal_concept::买卖合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（不动产登记）：\n甲乙签订房屋买卖合同后未办理登记，乙主张已取得物权。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "case::案例_case_24_property_no_registration_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（不动产登记）：\n甲乙签订房屋买卖合同后未办理登记，乙主张已取得物权。"
+  },
+  {
+    "source": "case::案例_case_24_property_no_registration_0",
+    "target": "legal_concept::不动产登记",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（不动产登记）：\n甲乙签订房屋买卖合同后未办理登记，乙主张已取得物权。"
+  },
+  {
+    "source": "legal_concept::不动产登记",
+    "target": "case::案例_case_24_property_no_registration_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（不动产登记）：\n甲乙签订房屋买卖合同后未办理登记，乙主张已取得物权。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "legal_concept::不动产登记",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（不动产登记）：\n甲乙签订房屋买卖合同后未办理登记，乙主张已取得物权。"
+  },
+  {
+    "source": "legal_concept::不动产登记",
+    "target": "legal_concept::买卖合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（不动产登记）：\n甲乙签订房屋买卖合同后未办理登记，乙主张已取得物权。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定未登记不发生物权变动效力，权利归属以登记簿为准。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::物权变动",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认定未登记不发生物权变动效力，权利归属以登记簿为准。"
+  },
+  {
+    "source": "case::案例_case_25_evidence_insufficient_0",
+    "target": "legal_concept::举证责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "case::案例_case_25_evidence_insufficient_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "case::案例_case_25_evidence_insufficient_0",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_25_evidence_insufficient_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "case::案例_case_25_evidence_insufficient_0",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "party::被告",
+    "target": "case::案例_case_25_evidence_insufficient_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "party::原告",
+    "target": "legal_concept::举证责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "party::被告",
+    "target": "legal_concept::举证责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "party::原告",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "案例摘要（举证责任）：\n原告主张已履行交付义务但仅提交不完整凭证，被告否认收货。"
+  },
+  {
+    "source": "case::案例_case_25_evidence_insufficient_1",
+    "target": "legal_concept::举证责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "case::案例_case_25_evidence_insufficient_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "case::案例_case_25_evidence_insufficient_1",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "party::法院",
+    "target": "case::案例_case_25_evidence_insufficient_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "case::案例_case_25_evidence_insufficient_1",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "party::原告",
+    "target": "case::案例_case_25_evidence_insufficient_1",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::举证责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "legal_concept::举证责任",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "party::原告",
+    "target": "legal_concept::举证责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::原告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "party::原告",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院认为原告未完成举证责任，对其相关诉请不予支持。"
+  },
+  {
+    "source": "case::案例_case_contract_example_0",
+    "target": "legal_concept::买卖合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "case::案例_case_contract_example_0",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "case::案例_case_contract_example_0",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "case::案例_case_contract_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "case::案例_case_contract_example_0",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "case::案例_case_contract_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::买卖合同",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::买卖合同",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（买卖合同纠纷）：\n甲公司与乙公司签订设备买卖合同，约定分期付款与交付期限。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司按期交付后，甲公司迟延支付尾款。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司按期交付后，甲公司迟延支付尾款。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "party::乙公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司起诉请求支付货款、逾期利息及违约金。"
+  },
+  {
+    "source": "party::乙公司",
+    "target": "legal_concept::违约金",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "乙公司起诉请求支付货款、逾期利息及违约金。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为甲公司构成违约，判令其支付剩余价款并承担相应违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为甲公司构成违约，判令其支付剩余价款并承担相应违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为甲公司构成违约，判令其支付剩余价款并承担相应违约责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "legal_concept::违约责任",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为甲公司构成违约，判令其支付剩余价款并承担相应违约责任。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::甲公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为甲公司构成违约，判令其支付剩余价款并承担相应违约责任。"
+  },
+  {
+    "source": "party::甲公司",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为甲公司构成违约，判令其支付剩余价款并承担相应违约责任。"
+  },
+  {
+    "source": "case::案例_case_theft_example_0",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::被告",
+    "target": "case::案例_case_theft_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "case::案例_case_theft_example_0",
+    "target": "party::张某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::张某",
+    "target": "case::案例_case_theft_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "case::案例_case_theft_example_0",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "case::案例_case_theft_example_0",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::张某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::张某",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::被告",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "party::被告",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::张某",
+    "target": "party::某公司",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::某公司",
+    "target": "party::张某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "﻿案例要点（盗窃）：\n被告人张某夜间进入某公司仓库，窃取电子设备后转卖获利。"
+  },
+  {
+    "source": "party::法院",
+    "target": "party::张某",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为，张某具有非法占有目的，实施秘密窃取行为，涉案财物价值达到追诉标准。"
+  },
+  {
+    "source": "party::张某",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "法院审理认为，张某具有非法占有目的，实施秘密窃取行为，涉案财物价值达到追诉标准。"
+  },
+  {
+    "source": "legal_concept::盗窃罪",
+    "target": "legal_concept::有期徒刑",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "裁判结果：认定构成盗窃罪，依法判处有期徒刑并处罚金，责令退赔被害单位损失。"
+  },
+  {
+    "source": "legal_concept::盗窃罪",
+    "target": "legal_concept::罚金",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "裁判结果：认定构成盗窃罪，依法判处有期徒刑并处罚金，责令退赔被害单位损失。"
+  },
+  {
+    "source": "legal_concept::盗窃罪",
+    "target": "legal_concept::退赔被害单位损失",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "裁判结果：认定构成盗窃罪，依法判处有期徒刑并处罚金，责令退赔被害单位损失。"
+  },
+  {
+    "source": "case::案例_case_theft_example_1",
+    "target": "legal_concept::盗窃罪",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "裁判结果：认定构成盗窃罪，依法判处有期徒刑并处罚金，责令退赔被害单位损失。"
+  },
+  {
+    "source": "legal_concept::盗窃罪",
+    "target": "case::案例_case_theft_example_1",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "裁判结果：认定构成盗窃罪，依法判处有期徒刑并处罚金，责令退赔被害单位损失。"
+  },
+  {
+    "source": "statute::刑法第二百六十四条",
+    "target": "legal_concept::盗窃罪",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百六十四条（节选）：\n盗窃公私财物，数额较大，或者多次盗窃、入户盗窃、携带凶器盗窃、扒窃的，构成盗窃罪。"
+  },
+  {
+    "source": "legal_concept::盗窃罪",
+    "target": "statute::刑法第二百六十四条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百六十四条（节选）：\n盗窃公私财物，数额较大，或者多次盗窃、入户盗窃、携带凶器盗窃、扒窃的，构成盗窃罪。"
+  },
+  {
+    "source": "legal_concept::不动产登记",
+    "target": "legal_concept::物权变动",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "一般仍需办理不动产登记，登记后才发生物权变动效力。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "legal_concept::不动产登记",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "一般仍需办理不动产登记，登记后才发生物权变动效力。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "legal_concept::预期违约",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "`n答：这通常属于预期违约，可在履行期届满前主张违约责任。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "`n答：这通常属于预期违约，可在履行期届满前主张违约责任。"
+  },
+  {
+    "source": "statute::第二百六十三条",
+    "target": "legal_concept::抢劫罪",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百六十三条（节选要点）：\n以暴力、胁迫或者其他方法抢劫公私财物的，依法追究刑事责任。"
+  },
+  {
+    "source": "legal_concept::抢劫罪",
+    "target": "statute::第二百六十三条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百六十三条（节选要点）：\n以暴力、胁迫或者其他方法抢劫公私财物的，依法追究刑事责任。"
+  },
+  {
+    "source": "statute::第二百六十六条",
+    "target": "legal_concept::诈骗罪",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百六十六条（节选要点）：\n以非法占有为目的，虚构事实或者隐瞒真相，骗取公私财物，数额较大的，构成诈骗罪。"
+  },
+  {
+    "source": "legal_concept::诈骗罪",
+    "target": "statute::第二百六十六条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百六十六条（节选要点）：\n以非法占有为目的，虚构事实或者隐瞒真相，骗取公私财物，数额较大的，构成诈骗罪。"
+  },
+  {
+    "source": "statute::第二百七十二条",
+    "target": "legal_concept::公司_企业或者其他单位工作人员利用职务便利将本单位财物非法占为己有",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百七十二条（节选要点）：\n公司、企业或者其他单位工作人员，利用职务便利将本单位财物非法占为己有，数额较大的，依法处理。"
+  },
+  {
+    "source": "legal_concept::公司_企业或者其他单位工作人员利用职务便利将本单位财物非法占为己有",
+    "target": "statute::第二百七十二条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百七十二条（节选要点）："
+  },
+  {
+    "source": "statute::第二百七十二条",
+    "target": "legal_concept::公司_企业或者其他单位工作人员利用职务便利将本单位财物非法占为己有",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百七十二条（节选要点）："
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::违约责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n当事人一方明确表示或者以自己的行为表明不履行主要债务的，对方可以在履行期限届满前请求其承担违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n当事人一方明确表示或者以自己的行为表明不履行主要债务的，对方可以在履行期限届满前请求其承担违约责任。"
+  },
+  {
+    "source": "legal_concept::因违约造成损失的",
+    "target": "legal_concept::中华人民共和国民法典_合同编",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n因违约造成损失的，赔偿额应当相当于因违约所造成的损失，包括合同履行后可获得的利益，但不得超过可预见范围。"
+  },
+  {
+    "source": "legal_concept::因违约造成损失的",
+    "target": "statute::民法典合同编",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）："
+  },
+  {
+    "source": "statute::民法典合同编",
+    "target": "legal_concept::因违约造成损失的",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）："
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::违约金",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n当事人约定违约金的，一方违约时应按约定支付；"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n当事人约定违约金的，一方违约时应按约定支付；"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::侵权责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》侵权责任编（节选要点）：\n行为人因过错侵害他人民事权益造成损害的，应当承担侵权责任。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》侵权责任编（节选要点）：\n行为人因过错侵害他人民事权益造成损害的，应当承担侵权责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::侵权责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》侵权责任编（节选要点）：\n二人以上分别实施侵权行为造成同一损害，能够确定责任大小的，各自承担相应责任。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》侵权责任编（节选要点）：\n二人以上分别实施侵权行为造成同一损害，能够确定责任大小的，各自承担相应责任。"
+  },
+  {
+    "source": "legal_concept::不动产登记",
+    "target": "legal_concept::物权变动",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿【法条要点】不动产登记与物权变动`n房屋物权变动以依法登记为原则。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "legal_concept::不动产登记",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "﻿【法条要点】不动产登记与物权变动`n房屋物权变动以依法登记为原则。"
+  },
+  {
+    "source": "legal_concept::买卖合同",
+    "target": "legal_concept::物权变动",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "仅签订买卖合同但未办理登记的，通常不发生物权变动效力。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "legal_concept::买卖合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "仅签订买卖合同但未办理登记的，通常不发生物权变动效力。"
+  },
+  {
+    "source": "statute::公司法",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国公司法》（节选要点）：\n董事、高级管理人员应当对公司负有忠实义务和勤勉义务，违反义务造成公司损失的，应承担赔偿责任。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "statute::公司法",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国公司法》（节选要点）：\n董事、高级管理人员应当对公司负有忠实义务和勤勉义务，违反义务造成公司损失的，应承担赔偿责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::不动产登记",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》物权编（节选要点）：\n不动产物权的设立、变更、转让和消灭，依法应当登记的，自记载于不动产登记簿时发生效力。"
+  },
+  {
+    "source": "legal_concept::不动产登记",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》物权编（节选要点）：\n不动产物权的设立、变更、转让和消灭，依法应当登记的，自记载于不动产登记簿时发生效力。"
+  },
+  {
+    "source": "statute::当事人对自己提出的主张_有责任提供证据",
+    "target": "legal_concept::无",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民事诉讼法》（节选要点）：\n当事人对自己提出的主张，有责任提供证据。人民法院根据法定程序全面、客观审查证据。"
+  },
+  {
+    "source": "statute::人民法院根据法定程序全面_客观审查证据",
+    "target": "legal_concept::无",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民事诉讼法》（节选要点）：\n当事人对自己提出的主张，有责任提供证据。人民法院根据法定程序全面、客观审查证据。"
+  },
+  {
+    "source": "statute::当事人对自己提出的主张_有责任提供证据",
+    "target": "statute::人民法院根据法定程序全面_客观审查证据",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民事诉讼法》（节选要点）："
+  },
+  {
+    "source": "statute::人民法院根据法定程序全面_客观审查证据",
+    "target": "statute::当事人对自己提出的主张_有责任提供证据",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民事诉讼法》（节选要点）："
+  },
+  {
+    "source": "legal_concept::股东出资义务",
+    "target": "party::法院",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "司法实践中，法院通常结合章程约定与缴资凭证认定股东出资义务。"
+  },
+  {
+    "source": "party::法院",
+    "target": "legal_concept::股东出资义务",
+    "relation": "INVOLVES_PARTY",
+    "weight": 1.0,
+    "evidence": "司法实践中，法院通常结合章程约定与缴资凭证认定股东出资义务。"
+  },
+  {
+    "source": "statute::第一百八十条",
+    "target": "legal_concept::董事勤勉义务",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第一百八十条（要点）：\n董事对公司负有忠实义务和勤勉义务。"
+  },
+  {
+    "source": "legal_concept::董事勤勉义务",
+    "target": "statute::第一百八十条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第一百八十条（要点）：\n董事对公司负有忠实义务和勤勉义务。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "legal_concept::租赁合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "承租人经催告后仍不支付的，出租人可以解除租赁合同并主张违约责任。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "legal_concept::违约责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "承租人经催告后仍不支付的，出租人可以解除租赁合同并主张违约责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::租赁合同",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》租赁合同编（要点）：\n承租人连续逾期支付租金，构成违约。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》租赁合同编（要点）：\n承租人连续逾期支付租金，构成违约。"
+  },
+  {
+    "source": "legal_concept::违约金",
+    "target": "legal_concept::租赁合同",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "出租人有权请求支付欠付租金、违约金，并可依法解除租赁合同。"
+  },
+  {
+    "source": "legal_concept::租赁合同",
+    "target": "legal_concept::违约金",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "出租人有权请求支付欠付租金、违约金，并可依法解除租赁合同。"
+  },
+  {
+    "source": "statute::第五百七十八条",
+    "target": "legal_concept::预期违约",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第五百七十八条（要点）：\n当事人一方明确表示不履行主要债务的，构成预期违约。"
+  },
+  {
+    "source": "legal_concept::预期违约",
+    "target": "statute::第五百七十八条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第五百七十八条（要点）：\n当事人一方明确表示不履行主要债务的，构成预期违约。"
+  },
+  {
+    "source": "statute::第五百八十四条",
+    "target": "legal_concept::损失赔偿",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第五百八十四条（要点）：\n违约损失赔偿包括合同履行后可获得的利益（可得利益）。"
+  },
+  {
+    "source": "legal_concept::损失赔偿",
+    "target": "statute::第五百八十四条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第五百八十四条（要点）：\n违约损失赔偿包括合同履行后可获得的利益（可得利益）。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::侵权责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n二人以上共同侵权造成同一损害的，应当承担相应侵权责任。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n二人以上共同侵权造成同一损害的，应当承担相应侵权责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::共同侵权",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n二人以上共同侵权造成同一损害的，应当承担相应侵权责任。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n二人以上共同侵权造成同一损害的，应当承担相应侵权责任。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "legal_concept::共同侵权",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n二人以上共同侵权造成同一损害的，应当承担相应侵权责任。"
+  },
+  {
+    "source": "legal_concept::共同侵权",
+    "target": "legal_concept::侵权责任",
+    "relation": "MENTIONED_WITH",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n二人以上共同侵权造成同一损害的，应当承担相应侵权责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::侵权责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n交通事故侵权责任认定通常审查过错、损害后果与因果关系。"
+  },
+  {
+    "source": "legal_concept::侵权责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "《中华人民共和国民法典》侵权责任编（要点）：\n交通事故侵权责任认定通常审查过错、损害后果与因果关系。"
+  },
+  {
+    "source": "statute::第二百零九条",
+    "target": "legal_concept::物权变动",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百零九条（要点）：\n不动产物权变动依法以登记为准。"
+  },
+  {
+    "source": "legal_concept::物权变动",
+    "target": "statute::第二百零九条",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "第二百零九条（要点）：\n不动产物权变动依法以登记为准。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::违约责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n当事人一方不履行合同义务或者履行合同义务不符合约定的，应当承担继续履行、采取补救措施或者赔偿损失等违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n当事人一方不履行合同义务或者履行合同义务不符合约定的，应当承担继续履行、采取补救措施或者赔偿损失等违约责任。"
+  },
+  {
+    "source": "statute::民法典",
+    "target": "legal_concept::违约责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n不履行合同义务或者履行不符合约定的，应承担继续履行、补救措施、赔偿损失等违约责任。"
+  },
+  {
+    "source": "legal_concept::违约责任",
+    "target": "statute::民法典",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿《中华人民共和国民法典》合同编（节选要点）：\n不履行合同义务或者履行不符合约定的，应承担继续履行、补救措施、赔偿损失等违约责任。"
+  },
+  {
+    "source": "statute::出租人可催告其在合理期限内支付",
+    "target": "legal_concept::承租人无正当理由逾期支付租金",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点：\n承租人无正当理由逾期支付租金，出租人可催告其在合理期限内支付；逾期仍未支付的，可依法主张解除合同并请求违约责任。"
+  },
+  {
+    "source": "statute::出租人可依法主张解除合同并请求违约责任",
+    "target": "legal_concept::承租人无正当理由逾期支付租金",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点：\n承租人无正当理由逾期支付租金，出租人可催告其在合理期限内支付；逾期仍未支付的，可依法主张解除合同并请求违约责任。"
+  },
+  {
+    "source": "legal_concept::承租人无正当理由逾期支付租金",
+    "target": "statute::出租人可催告其在合理期限内支付",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点："
+  },
+  {
+    "source": "statute::出租人可催告其在合理期限内支付",
+    "target": "legal_concept::承租人无正当理由逾期支付租金",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点："
+  },
+  {
+    "source": "legal_concept::承租人无正当理由逾期支付租金",
+    "target": "statute::出租人可依法主张解除合同并请求违约责任",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点："
+  },
+  {
+    "source": "statute::出租人可依法主张解除合同并请求违约责任",
+    "target": "legal_concept::承租人无正当理由逾期支付租金",
+    "relation": "APPLIES_TO",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点："
+  },
+  {
+    "source": "statute::出租人可催告其在合理期限内支付",
+    "target": "statute::出租人可依法主张解除合同并请求违约责任",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点："
+  },
+  {
+    "source": "statute::出租人可依法主张解除合同并请求违约责任",
+    "target": "statute::出租人可催告其在合理期限内支付",
+    "relation": "REFERENCES_STATUTE",
+    "weight": 1.0,
+    "evidence": "﻿房屋租赁纠纷常见规则要点："
+  }
+]

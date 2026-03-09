@@ -1,0 +1,1 @@
+{"entities": [{"name": "甲乙双方", "type": "Party"}, {"name": "房屋产权归属争议", "type": "Circumstance"}, {"name": "乙方", "type": "Party"}, {"name": "不动产物权变动", "type": "LawArticle"}], "triples": [{"subject": "不动产物权变动", "relation": "APPLIES_TO", "object": "法院"}]}

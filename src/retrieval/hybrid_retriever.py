@@ -1,26 +1,37 @@
 from typing import Dict, List
 
 from src.embedding.embedding_model import EmbeddingModel
+from src.retrieval.bm25_retriever import BM25Retriever
 from src.retrieval.evidence_ranker import rank_evidence
+from src.retrieval.fusion import reciprocal_rank_fusion
 from src.retrieval.graph_retriever import GraphRetriever
 from src.vector_store.vector_index import FaissVectorIndex
 
 
 class HybridRetriever:
-    def __init__(self, vector_index: FaissVectorIndex, embedding_model: EmbeddingModel, graph_retriever: GraphRetriever) -> None:
+    def __init__(
+        self,
+        vector_index: FaissVectorIndex,
+        embedding_model: EmbeddingModel,
+        graph_retriever: GraphRetriever,
+        bm25_retriever: BM25Retriever | None = None,
+    ) -> None:
         self.vector_index = vector_index
         self.embedding_model = embedding_model
         self.graph_retriever = graph_retriever
+        self.bm25_retriever = bm25_retriever
 
     def retrieve(self, query: str, top_k_vector: int = 5, top_k_nodes: int = 6, top_k_edges: int = 10, top_k_ranked: int = 8) -> Dict:
         query_vec = self.embedding_model.embed_text(query)
         vector_hits = self.vector_index.search(query_vec, top_k=top_k_vector)
+        bm25_hits = self.bm25_retriever.search(query, top_k=top_k_vector) if self.bm25_retriever is not None else []
         graph_result = self.graph_retriever.retrieve(query, top_k_nodes=top_k_nodes, top_k_edges=top_k_edges)
+        fused_hits = reciprocal_rank_fusion(vector_hits, bm25_hits, top_k=top_k_vector)
 
         candidate_paths: List[Dict] = []
         for edge in graph_result.get("edges", []):
             candidate_paths.append({**edge, "distance": 1})
-        for hit in vector_hits:
+        for hit in fused_hits:
             candidate_paths.append(
                 {
                     "source": f"chunk::{hit['chunk_id']}",
@@ -28,7 +39,8 @@ class HybridRetriever:
                     "relation": "VECTOR_MATCH",
                     "evidence": hit["text"],
                     "distance": 2,
-                    "vector_score": hit["score"],
+                    "vector_score": hit.get("vector_score", 0.0),
+                    "bm25_score": hit.get("bm25_score", 0.0),
                 }
             )
 
@@ -38,5 +50,7 @@ class HybridRetriever:
             "nodes": graph_result.get("nodes", []),
             "edges": graph_result.get("edges", []),
             "vector_hits": vector_hits,
+            "bm25_hits": bm25_hits,
+            "fused_hits": fused_hits,
             "ranked_paths": ranked,
         }

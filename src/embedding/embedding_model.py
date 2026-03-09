@@ -1,53 +1,55 @@
-import hashlib
-import os
-import re
 from typing import List
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
+from src.cache.cache_manager import get_cache_manager
+from src.config.settings import settings
+from src.embedding.embedding_router import get_embedding_provider
 from src.ingestion.text_chunker import TextChunk
 
 
 class EmbeddingModel:
-    def __init__(self, model_name: str = "all-MiniLM-L6-v2") -> None:
+    def __init__(self, model_name: str = "all-MiniLM-L6-v2", provider: str | None = None) -> None:
         self.model_name = model_name
-        self.model = None
-        self.fallback_dim = 384
-        try:
-            self.model = SentenceTransformer(model_name, local_files_only=True)
-        except Exception:
-            if os.getenv("ALLOW_REMOTE_MODELS", "0") == "1":
-                try:
-                    self.model = SentenceTransformer(model_name)
-                except Exception:
-                    self.model = None
-            else:
-                self.model = None
+        self.provider_name = provider
+        self.provider = get_embedding_provider(provider=provider, model_name=model_name, timeout=60)
+        self.cache_manager = get_cache_manager()
 
     def embed_text(self, text: str) -> np.ndarray:
-        if self.model is not None:
-            emb = self.model.encode([text], normalize_embeddings=True)
-            return np.asarray(emb[0], dtype=np.float32)
-        return self._hash_embed(text)
+        if settings.enable_cache and settings.enable_embedding_cache:
+            cached = self.cache_manager.embedding_cache.get(text)
+            if cached is not None:
+                return np.asarray(cached, dtype=np.float32)
+        vector = np.asarray(self.provider.embed_text(text), dtype=np.float32)
+        if settings.enable_cache and settings.enable_embedding_cache:
+            self.cache_manager.embedding_cache.set(text, vector)
+        return vector
 
     def embed_chunks(self, chunks: List[TextChunk]) -> np.ndarray:
         texts = [c.text for c in chunks]
-        if self.model is not None:
-            emb = self.model.encode(texts, normalize_embeddings=True)
-            return np.asarray(emb, dtype=np.float32)
-        return np.vstack([self._hash_embed(t) for t in texts]).astype(np.float32)
+        if not texts:
+            return np.empty((0, 0), dtype=np.float32)
+        if not (settings.enable_cache and settings.enable_embedding_cache):
+            return np.asarray(self.provider.embed_texts(texts), dtype=np.float32)
 
-    def _hash_embed(self, text: str) -> np.ndarray:
-        vec = np.zeros(self.fallback_dim, dtype=np.float32)
-        tokens = re.findall(r"[\w\u4e00-\u9fff]+", text.lower())
-        if not tokens:
-            return vec
-        for token in tokens:
-            h = int(hashlib.md5(token.encode("utf-8")).hexdigest(), 16)
-            idx = h % self.fallback_dim
-            vec[idx] += 1.0
-        norm = np.linalg.norm(vec)
-        if norm > 0:
-            vec = vec / norm
-        return vec
+        cache = self.cache_manager.embedding_cache
+        vectors: List[np.ndarray | None] = [None] * len(texts)
+        missing_idx: List[int] = []
+        missing_texts: List[str] = []
+        for i, t in enumerate(texts):
+            cached = cache.get(t)
+            if cached is None:
+                missing_idx.append(i)
+                missing_texts.append(t)
+            else:
+                vectors[i] = np.asarray(cached, dtype=np.float32)
+
+        if missing_texts:
+            fresh = np.asarray(self.provider.embed_texts(missing_texts), dtype=np.float32)
+            for idx, vec in zip(missing_idx, fresh):
+                vectors[idx] = vec
+                cache.set(texts[idx], vec)
+
+        if any(v is None for v in vectors):
+            raise RuntimeError("embedding cache fill failed: some vectors are missing")
+        return np.asarray(vectors, dtype=np.float32)

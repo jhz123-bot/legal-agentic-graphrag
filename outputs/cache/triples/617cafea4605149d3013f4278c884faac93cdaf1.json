@@ -1,0 +1,1 @@
+{"entities": [{"name": "当事人应当按照约定全面履行义务，遵循诚信原则。无正当理由不履行或者迟延履行的，应承担相应民事责任。", "type": "Crime"}], "triples": [{"subject": "无正当理由不履行或者迟延履行的", "relation": "APPLIES_TO", "object": "相应民事责任"}]}

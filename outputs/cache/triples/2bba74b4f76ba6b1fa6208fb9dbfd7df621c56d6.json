@@ -1,0 +1,1 @@
+{"entities": [{"name": "侵权责任", "type": "Crime"}], "triples": [{"subject": "行为人", "relation": "BEARS_LIABILITY", "object": "侵权责任"}]}

@@ -1,0 +1,23 @@
+﻿{
+  "layer": "case",
+  "required_fields": [
+    "case_id",
+    "case_type",
+    "court",
+    "facts",
+    "issues",
+    "holding",
+    "cited_laws",
+    "keywords"
+  ],
+  "field_types": {
+    "case_id": "string",
+    "case_type": "string",
+    "court": "string",
+    "facts": "string",
+    "issues": "array[string]",
+    "holding": "string",
+    "cited_laws": "array[string]",
+    "keywords": "array[string]"
+  }
+}

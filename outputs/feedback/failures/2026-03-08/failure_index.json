@@ -1,0 +1,13 @@
+{
+  "date": "2026-03-08",
+  "total_records": 1,
+  "files": {
+    "reasoning_error": "D:\\GRAPH RAG AGENT\\legal-agentic-graphrag\\outputs\\feedback\\failures\\2026-03-08\\reasoning_error_failures.jsonl"
+  },
+  "by_question_type": {
+    "statute_lookup": 1
+  },
+  "by_source_type": {
+    "statute_only": 1
+  }
+}

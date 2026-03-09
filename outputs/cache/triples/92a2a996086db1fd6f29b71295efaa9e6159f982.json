@@ -1,0 +1,1 @@
+{"entities": [{"name": "以暴力、胁迫或者其他方法抢劫公私财物", "type": "Crime"}, {"name": "第二百六十三条", "type": "LawArticle"}], "triples": [{"subject": "第二百六十三条", "relation": "APPLIES_TO", "object": "以暴力、胁迫或者其他方法抢劫公私财物"}]}

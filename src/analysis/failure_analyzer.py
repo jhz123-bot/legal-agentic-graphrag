@@ -36,29 +36,29 @@ def analyze_failure(example: Dict[str, Any], state: Dict[str, Any]) -> Dict[str,
         return hits >= max(1, len(expected_keywords) // 2)
 
     failure_type = "none"
-    details = "no obvious failure"
+    details = "未发现明显失败"
 
     if not linked_entities:
         failure_type = "entity_linking_error"
-        details = "no linked entities produced"
+        details = "未产生有效实体链接结果"
     elif not _contains_expected_entities():
         failure_type = "entity_linking_error"
-        details = "expected entities not matched in linked entities"
+        details = "期望实体未在已链接实体中命中"
     elif not ranked:
         failure_type = "retrieval_failure"
-        details = "no relevant graph/vector evidence path found"
+        details = "未检索到相关图谱或向量证据路径"
     elif ranked and all(float(x.get("score", 0.0)) < 0.2 for x in ranked[:3]):
         failure_type = "ranking_error"
-        details = "top ranked evidence confidence is too low"
+        details = "排序后高位证据分数偏低，可信度不足"
     elif not reasoning_trace.get("structured_steps"):
         failure_type = "reasoning_failure"
-        details = "missing structured reasoning steps"
+        details = "缺少结构化推理步骤"
     elif verification.get("decision") in {"re-retrieve", "re-reason"} and int(verification.get("reflection_round", 0)) >= 1:
         failure_type = "reflection_failure"
-        details = "reflection requested correction but outcome remains unstable"
+        details = "反思已触发纠偏但结果仍不稳定"
     elif not _contains_keywords():
         failure_type = "reasoning_failure"
-        details = "final answer misses expected legal keywords"
+        details = "最终回答未覆盖关键法律术语"
 
     return {
         "query": query,

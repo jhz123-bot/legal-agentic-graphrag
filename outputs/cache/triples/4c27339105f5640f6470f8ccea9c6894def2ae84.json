@@ -1,0 +1,1 @@
+{"entities": [{"name": "某公司董事", "type": "Party"}, {"name": "公司", "type": "Party"}], "triples": [{"subject": "某公司董事", "relation": "BEARS_LIABILITY", "object": "公司"}]}

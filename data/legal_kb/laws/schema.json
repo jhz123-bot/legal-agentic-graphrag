@@ -1,0 +1,21 @@
+﻿{
+  "layer": "law",
+  "required_fields": [
+    "doc_id",
+    "law_name",
+    "article_no",
+    "chapter",
+    "effective_date",
+    "text",
+    "keywords"
+  ],
+  "field_types": {
+    "doc_id": "string",
+    "law_name": "string",
+    "article_no": "string",
+    "chapter": "string",
+    "effective_date": "string(YYYY-MM-DD)",
+    "text": "string",
+    "keywords": "array[string]"
+  }
+}

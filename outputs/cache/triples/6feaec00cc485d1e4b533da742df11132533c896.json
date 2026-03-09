@@ -1,0 +1,1 @@
+{"entities": [{"name": "某公司董事", "type": "Party"}, {"name": "某公司", "type": "Party"}, {"name": "重大交易", "type": "Circumstance"}], "triples": [{"subject": "某公司董事", "relation": "INVOLVES", "object": "重大交易"}, {"subject": "某公司董事", "relation": "BEARS_LIABILITY", "object": "向公司承担赔偿责任"}, {"subject": "法院", "relation": "DECIDED_BY", "object": "某公司董事"}]}

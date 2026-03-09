@@ -1,0 +1,19 @@
+{
+  "failure_summary": {
+    "total_failures": 0,
+    "failure_rate": 0.0,
+    "by_question_type": {},
+    "by_source_type": {}
+  },
+  "top_failure_causes": {},
+  "stage_bottleneck_summary": [],
+  "top_weak_topics": {},
+  "suggested_actions": [],
+  "action_status_summary": {},
+  "action_queue": [],
+  "closed_loop_candidates": {
+    "faq_expansion_candidates": [],
+    "statute_gap_candidates": [],
+    "case_gap_candidates": []
+  }
+}

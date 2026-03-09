@@ -1,0 +1,69 @@
+{
+  "num_examples": 3,
+  "entity_hit_rate": 0.3333333333333333,
+  "evidence_path_hit_rate": 0.5555555555555555,
+  "answer_keyword_match_rate": 0.27777777777777773,
+  "latency": 3.481590133315573,
+  "reflection_trigger_rate": 0.0,
+  "citation_correctness": 0.3333333333333333,
+  "citation_coverage": 0.3333333333333333,
+  "grounding_score": 0.12146666666666667,
+  "results": [
+    {
+      "index": 0,
+      "query": "盗窃行为通常适用哪一条法律条文？",
+      "entity_hit_rate": 0.5,
+      "evidence_path_hit_rate": 1.0,
+      "answer_keyword_match_rate": 0.5,
+      "reflection_triggered": false,
+      "latency": 3.477430999977514,
+      "confidence": 0.6667,
+      "citation_correctness": 1.0,
+      "citation_coverage": 1.0,
+      "grounding_score": 0.3644
+    },
+    {
+      "index": 1,
+      "query": "合同一方违约后，通常依据哪条规定承担责任？",
+      "entity_hit_rate": 0.0,
+      "evidence_path_hit_rate": 0.0,
+      "answer_keyword_match_rate": 0.0,
+      "reflection_triggered": false,
+      "latency": 3.4943873999873176,
+      "confidence": 0.75,
+      "citation_correctness": 0.0,
+      "citation_coverage": 0.0,
+      "grounding_score": 0.0
+    },
+    {
+      "index": 2,
+      "query": "侵权责任一般依据民法典哪一条进行判断？",
+      "entity_hit_rate": 0.5,
+      "evidence_path_hit_rate": 0.6666666666666666,
+      "answer_keyword_match_rate": 0.3333333333333333,
+      "reflection_triggered": false,
+      "latency": 3.4729519999818876,
+      "confidence": 0.75,
+      "citation_correctness": 0.0,
+      "citation_coverage": 0.0,
+      "grounding_score": 0.0
+    }
+  ],
+  "failures": [
+    {
+      "query": "合同一方违约后，通常依据哪条规定承担责任？",
+      "failure_type": "entity_linking_error",
+      "details": "未产生有效实体链接结果"
+    },
+    {
+      "query": "侵权责任一般依据民法典哪一条进行判断？",
+      "failure_type": "retrieval_failure",
+      "details": "未检索到相关图谱或向量证据路径"
+    }
+  ],
+  "plot_files": [
+    "D:\\GRAPH RAG AGENT\\legal-agentic-graphrag\\outputs\\plots\\accuracy_over_queries.png",
+    "D:\\GRAPH RAG AGENT\\legal-agentic-graphrag\\outputs\\plots\\latency_distribution.png",
+    "D:\\GRAPH RAG AGENT\\legal-agentic-graphrag\\outputs\\plots\\reflection_trigger_frequency.png"
+  ]
+}

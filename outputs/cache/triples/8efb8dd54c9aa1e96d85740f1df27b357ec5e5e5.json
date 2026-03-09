@@ -1,0 +1,1 @@
+{"entities": [{"name": "因违约造成损失", "type": "Crime"}, {"name": "民法典合同编", "type": "LawArticle"}], "triples": [{"subject": "因违约造成损失", "relation": "APPLIES_TO", "object": "《中华人民共和国民法典》合同编"}]}

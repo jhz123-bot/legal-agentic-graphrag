@@ -1,0 +1,1 @@
+{"entities": [{"name": "当事人一方不履行合同义务或者履行合同义务不符合约定", "type": "Crime"}, {"name": "违约责任", "type": "Liability"}, {"name": "民法典合同编", "type": "LawArticle"}], "triples": [{"subject": "当事人一方不履行合同义务或者履行合同义务不符合约定", "relation": "BEARS_LIABILITY", "object": "继续履行、采取补救措施或者赔偿损失等违约责任"}, {"subject": "《中华人民共和国民法典》合同编", "relation": "APPLIES_TO", "object": "当事人一方不履行合同义务或者履行合同义务不符合约定"}]}

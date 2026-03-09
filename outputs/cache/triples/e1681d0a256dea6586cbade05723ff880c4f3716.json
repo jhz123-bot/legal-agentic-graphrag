@@ -1,0 +1,1 @@
+{"entities": [{"name": "侵权责任编", "type": "LawArticle"}], "triples": [{"subject": "行为人", "relation": "APPLIES_TO", "object": "侵权责任编"}, {"subject": "过错", "relation": "HAS_CIRCUMSTANCE", "object": "行为人"}, {"subject": "损害", "relation": "HAS_CIRCUMSTANCE", "object": "他人民事权益"}, {"subject": "侵权责任", "relation": "APPLIES_TO", "object": "行为人"}]}

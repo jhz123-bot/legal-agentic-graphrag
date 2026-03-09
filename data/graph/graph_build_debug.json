@@ -1,0 +1,3111 @@
+[
+  {
+    "doc_id": "case_03_robbery_example_0",
+    "rule_entities": 6,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 6,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_04_fraud_example_0",
+    "rule_entities": 6,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 6,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_05_occupation_example_0",
+    "rule_entities": 6,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 6,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_06_anticipatory_breach_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_06_anticipatory_breach_1",
+    "rule_entities": 6,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 6,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_07_damage_scope_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_08_liquidated_adjustment_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_09_lease_arrears_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_100_borrowing_evidence_chain_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_101_borrowing_limitation_interrupt_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_102_standard_clause_notice_failure_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_103_unfair_format_clause_invalid_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_104_mental_damage_for_defamation_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_105_network_platform_delete_duty_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_106_share_transfer_preemptive_right_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_107_shareholder_information_access_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_108_probation_wage_dispute_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_109_no_written_labor_contract_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_10_tort_injury_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_110_lease_early_termination_penalty_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_111_lease_return_property_damage_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_112_sale_title_defect_eviction_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_113_sale_risk_transfer_loss_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_114_domestic_violence_protection_order_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_115_contract_change_dispute_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_116_contract_rescission_damage_settlement_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_117_mortgage_priority_registration_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_118_product_liability_seller_fault_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_119_consumer_safety_service_place_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_11_joint_tort_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_121_sale_delay_scope_reasoning_0",
+    "rule_entities": 3,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_121_sale_delay_scope_reasoning_1",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_122_property_no_registration_reasoning_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_122_property_no_registration_reasoning_1",
+    "rule_entities": 3,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_123_company_capital_support_claims_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_124_director_duty_loss_assessment_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_12_capital_contribution_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_13_director_duty_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_14_property_registration_0",
+    "rule_entities": 3,
+    "use_llm_fallback": true,
+    "llm_entities": 4,
+    "merged_entities": 7,
+    "llm_triples": 1,
+    "sample_llm_triples": [
+      {
+        "subject": "不动产物权变动",
+        "relation": "APPLIES_TO",
+        "object": "法院"
+      }
+    ]
+  },
+  {
+    "doc_id": "case_15_burden_of_proof_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 1,
+    "merged_entities": 3,
+    "llm_triples": 2,
+    "sample_llm_triples": [
+      {
+        "subject": "原告",
+        "relation": "INVOLVES",
+        "object": "已交付货物"
+      },
+      {
+        "subject": "原告",
+        "relation": "HAS_CIRCUMSTANCE",
+        "object": "未提交完整签收凭证"
+      }
+    ]
+  },
+  {
+    "doc_id": "case_15_burden_of_proof_1",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_16_company_capital_claim_0",
+    "rule_entities": 3,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_16_company_capital_claim_1",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_17_director_duty_loss_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_18_lease_cure_termination_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_19_lease_three_months_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_20_anticipatory_breach_notice_0",
+    "rule_entities": 11,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 11,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_21_expected_benefit_compensation_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_22_joint_tort_allocation_0",
+    "rule_entities": 6,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 6,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_23_traffic_injury_compensation_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_24_property_no_registration_0",
+    "rule_entities": 5,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 5,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_25_evidence_insufficient_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_25_evidence_insufficient_1",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_26_robbery_qualification_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_27_fraud_qualification_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_28_robbery_public_transport_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_29_robbery_home_invasion_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_30_fraud_investment_platform_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_31_fraud_contract_prepayment_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_32_occupation_inventory_sale_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_33_company_capital_delay_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_34_director_duty_breach_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_35_contract_damage_scope_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_36_liquidated_adjustment_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_37_lease_termination_after_notice_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_38_property_registration_effect_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_39_burden_of_proof_contract_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_40_sale_delay_factory_shutdown_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_41_sale_quality_defect_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_42_lease_unauthorized_sublease_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_43_lease_repair_dispute_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_44_tort_work_injury_thirdparty_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_45_tort_online_defamation_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_46_company_abuse_shareholder_rights_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_47_company_director_conflict_interest_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_48_labor_wage_arrears_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_49_labor_illegal_termination_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_50_labor_overtime_pay_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_51_property_precontract_default_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_52_property_registration_delay_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_53_guarantee_liability_scope_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_54_consumer_false_ad_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_55_data_privacy_leak_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_56_traffic_primary_secondary_liability_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_57_contract_penalty_vs_damage_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_58_capital_acceleration_creditor_claim_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_59_director_audit_failure_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_60_construction_delay_penalty_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_61_construction_quality_rework_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_62_private_lending_interest_cap_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_63_private_lending_repayment_order_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_64_joint_guarantee_direct_claim_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_65_insurance_exemption_notice_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_66_ecommerce_refund_dispute_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_67_platform_joint_liability_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_68_trademark_similar_sign_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_69_unfair_competition_confusion_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_70_labor_noncompete_dispute_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_71_work_injury_recognition_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_72_divorce_property_split_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_73_inheritance_equal_share_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_74_loan_or_fraud_boundary_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_75_property_management_injury_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_76_neighbor_noise_disturbance_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_77_training_refund_breach_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_78_online_privacy_leak_compensation_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_79_consumer_false_promise_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_80_contract_assignment_notice_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_81_contract_rescission_refund_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_82_mortgage_priority_dispute_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_83_pledge_delivery_effect_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_84_company_liquidation_delay_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_85_controller_abuse_company_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_86_product_defect_injury_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_87_environment_pollution_damage_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_88_high_risk_operation_injury_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_89_labor_social_insurance_arrears_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_90_labor_rest_day_overtime_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_91_consumer_right_to_know_violation_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_92_consumer_safety_incident_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_93_data_collection_overreach_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_94_data_breach_notification_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_95_lease_deposit_refund_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_96_house_intermediary_misrepresentation_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_97_divorce_child_support_amount_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_98_will_form_defect_invalid_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_99_will_coercion_invalid_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_contract_example_0",
+    "rule_entities": 12,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 12,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_theft_example_0",
+    "rule_entities": 6,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 6,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "case_theft_example_1",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 1,
+    "merged_entities": 2,
+    "llm_triples": 3,
+    "sample_llm_triples": [
+      {
+        "subject": "盗窃罪",
+        "relation": "APPLIES_TO",
+        "object": "有期徒刑"
+      },
+      {
+        "subject": "盗窃罪",
+        "relation": "APPLIES_TO",
+        "object": "罚金"
+      },
+      {
+        "subject": "盗窃罪",
+        "relation": "APPLIES_TO",
+        "object": "退赔被害单位损失"
+      }
+    ]
+  },
+  {
+    "doc_id": "contract_dispute_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_01_theft_article_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_02_robbery_article_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_03_fraud_article_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_04_occupation_article_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_05_breach_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_06_anticipatory_breach_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_07_expected_benefit_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_08_liquidated_adjust_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_09_lease_termination_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_10_lease_claims_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_11_tort_elements_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_12_joint_tort_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_13_company_capital_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_14_director_duty_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_15_property_registration_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_16_burden_of_proof_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_17_case_analysis_company_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_18_case_analysis_lease_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_19_case_analysis_tort_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_20_case_analysis_contract_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_21_robbery_vs_theft_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_22_fraud_how_identify_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_23_company_capital_remedy_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_24_director_duty_remedy_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_25_lease_termination_remedy_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_26_robbery_definition_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_27_fraud_definition_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_28_occupation_definition_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_29_capital_contribution_remedy_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_30_director_duty_remedy_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_31_damage_scope_expected_benefit_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_32_liquidated_reduce_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_33_lease_termination_notice_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_34_property_registration_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_35_burden_of_proof_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_36_sale_delay_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_37_sale_delay_expected_profit_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_38_lease_sublease_without_permission_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_39_lease_repair_rights_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_40_company_abuse_shareholder_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_41_director_conflict_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_42_labor_illegal_termination_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_43_labor_wage_arrears_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_44_property_no_registration_effect_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_45_data_leak_compensation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_46_construction_delay_claims_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_47_private_lending_interest_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_48_guarantee_direct_sue_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_49_insurance_refuse_claim_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_50_platform_fake_goods_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_51_trademark_infringement_judgment_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_52_labor_noncompete_rules_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_53_work_injury_proof_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_54_neighbor_noise_rights_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_55_training_refund_rights_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_56_contract_assignment_notice_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_57_mortgage_priority_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_58_company_liquidation_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_59_product_defect_compensation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_60_environment_pollution_claim_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_61_social_insurance_rights_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_62_consumer_right_to_know_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_63_data_minimization_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_64_lease_deposit_refund_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_65_will_validity_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_66_borrowing_evidence_requirements_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_67_standard_clause_effective_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_68_shareholder_information_rights_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_69_probation_wage_limit_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_70_no_written_contract_rights_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_71_lease_early_termination_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_72_sale_title_defect_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_73_sale_risk_transfer_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_74_domestic_violence_order_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_75_platform_infringement_notice_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_78_sale_delay_scope_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_79_property_no_registration_effect_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_80_company_capital_lawsuit_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_81_director_duty_liability_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_82_followup_anticipatory_breach_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "faq_83_followup_no_registration_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_03_robbery_article_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_04_fraud_article_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_05_occupation_article_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 2,
+    "merged_entities": 3,
+    "llm_triples": 1,
+    "sample_llm_triples": [
+      {
+        "subject": "第二百七十二条",
+        "relation": "APPLIES_TO",
+        "object": "公司、企业或者其他单位工作人员利用职务便利将本单位财物非法占为己有"
+      }
+    ]
+  },
+  {
+    "doc_id": "law_06_contract_performance_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_07_anticipatory_breach_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_08_damage_scope_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 2,
+    "merged_entities": 3,
+    "llm_triples": 1,
+    "sample_llm_triples": [
+      {
+        "subject": "因违约造成损失的",
+        "relation": "APPLIES_TO",
+        "object": "《中华人民共和国民法典》合同编"
+      }
+    ]
+  },
+  {
+    "doc_id": "law_09_liquidated_damages_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_100_data_processing_consent_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_101_data_minimization_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_102_house_lease_deposit_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_103_house_sale_intermediary_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_104_marriage_child_support_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_105_inheritance_will_validity_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_106_borrowing_receipt_evidence_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_107_borrowing_limitation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_108_contract_standard_terms_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_109_contract_unfair_clause_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_10_tort_general_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_110_tort_mental_damage_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_111_tort_network_violence_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_112_company_share_transfer_preemptive_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_113_company_shareholder_information_right_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_114_labor_probation_wage_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_115_labor_contract_written_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_116_lease_early_termination_compensation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_117_lease_property_return_condition_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_118_sale_title_defect_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_119_sale_risk_transfer_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_11_joint_tort_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_120_family_domestic_violence_protection_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_123_sale_delay_scope_detail_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_124_property_registration_effect_detail_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_125_company_capital_claim_detail_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 1,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_126_director_review_duty_detail_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_12_company_capital_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_13_director_duty_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_14_property_registration_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_15_evidence_rule_0",
+    "rule_entities": 2,
+    "use_llm_fallback": true,
+    "llm_entities": 2,
+    "merged_entities": 4,
+    "llm_triples": 2,
+    "sample_llm_triples": [
+      {
+        "subject": "当事人对自己提出的主张，有责任提供证据。",
+        "relation": "APPLIES_TO",
+        "object": "无"
+      },
+      {
+        "subject": "人民法院根据法定程序全面、客观审查证据。",
+        "relation": "APPLIES_TO",
+        "object": "无"
+      }
+    ]
+  },
+  {
+    "doc_id": "law_16_company_capital_detail_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_17_director_review_duty_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_18_lease_termination_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_19_lease_arrears_liability_0",
+    "rule_entities": 4,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 4,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_20_anticipatory_breach_detail_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_21_loss_of_expected_benefit_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_22_joint_tort_detail_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_23_traffic_tort_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_24_property_registration_detail_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_25_burden_of_proof_detail_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_26_robbery_identification_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_27_fraud_identification_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_28_occupation_identification_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_29_company_claims_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_30_director_compensation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_31_robbery_core_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_32_robbery_aggravated_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_33_fraud_core_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_34_fraud_online_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_35_occupation_core_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_36_company_capital_obligation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_37_company_capital_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_38_director_duty_of_care_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_39_director_review_obligation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_40_damage_scope_contract_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_41_liquidated_damages_adjust_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_42_lease_termination_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_43_expected_breach_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_44_property_registration_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_45_burden_of_proof_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_46_sale_delay_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_47_sale_delay_damage_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_48_contract_termination_general_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_49_lease_repair_obligation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_50_lease_sublease_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_51_tort_fault_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_52_tort_medical_expense_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_53_company_capital_acceleration_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_54_company_shareholder_duty_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_55_company_director_loyalty_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_56_labor_wage_payment_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_57_labor_illegal_termination_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_58_labor_economic_compensation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_59_traffic_tort_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_60_online_defamation_tort_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_61_ecommerce_false_promo_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_62_real_estate_precontract_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_63_security_guarantee_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_64_data_privacy_tort_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_65_house_sale_breach_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_66_construction_delay_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_67_construction_quality_defect_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_68_borrowing_interest_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_69_borrowing_repayment_order_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_70_guarantee_joint_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_71_insurance_claim_cooperation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_72_insurance_refusal_limit_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_73_ecommerce_return_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_74_ecommerce_platform_duty_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_75_intellectual_property_infringement_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_76_trademark_infringement_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_77_unfair_competition_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_78_labor_noncompete_compensation_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_79_labor_work_injury_benefit_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_80_marriage_property_division_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_81_inheritance_order_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_82_loan_fraud_boundary_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_83_property_management_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_84_neighbor_rights_noise_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_85_education_training_refund_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_86_contract_change_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_87_contract_assignment_notice_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_88_contract_rescission_effect_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_89_security_mortgage_priority_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_90_security_pledge_effect_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_91_company_liquidation_duty_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_92_company_controller_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_93_tort_product_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_94_tort_environmental_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_95_tort_high_risk_liability_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_96_labor_social_insurance_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_97_labor_rest_vacation_rule_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_98_consumer_right_to_know_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_99_consumer_safe_right_0",
+    "rule_entities": 0,
+    "use_llm_fallback": true,
+    "llm_entities": 0,
+    "merged_entities": 0,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_contract_breach_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "law_theft_article_0",
+    "rule_entities": 3,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 3,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "negligence_case_0",
+    "rule_entities": 2,
+    "use_llm_fallback": false,
+    "llm_entities": 0,
+    "merged_entities": 2,
+    "llm_triples": 0,
+    "sample_llm_triples": []
+  },
+  {
+    "doc_id": "tenant_landlord_0",
+    "rule_entities": 1,
+    "use_llm_fallback": true,
+    "llm_entities": 3,
+    "merged_entities": 4,
+    "llm_triples": 2,
+    "sample_llm_triples": [
+      {
+        "subject": "出租人可催告其在合理期限内支付",
+        "relation": "APPLIES_TO",
+        "object": "承租人无正当理由逾期支付租金"
+      },
+      {
+        "subject": "出租人可依法主张解除合同并请求违约责任",
+        "relation": "APPLIES_TO",
+        "object": "承租人无正当理由逾期支付租金"
+      }
+    ]
+  }
+]

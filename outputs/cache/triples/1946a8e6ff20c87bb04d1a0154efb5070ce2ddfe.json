@@ -1,0 +1,1 @@
+{"entities": [{"name": "房屋产权归属争议", "type": "Circumstance"}, {"name": "甲乙双方", "type": "Party"}], "triples": [{"subject": "法院", "relation": "DECIDED_BY", "object": "不动产物权变动依法以登记为准，结合登记簿记载确定权利归属"}]}

@@ -1,3 +1,4 @@
+﻿import re
 from typing import Dict, List
 
 from src.graph.entity_extraction import extract_entities
@@ -7,6 +8,11 @@ from src.graph.store import InMemoryGraphStore
 class GraphRetriever:
     def __init__(self, graph_store: InMemoryGraphStore) -> None:
         self.graph_store = graph_store
+
+    def _fallback_tokens(self, question: str) -> List[str]:
+        zh_terms = re.findall(r"[\u4e00-\u9fff]{2,}", question)
+        en_terms = [t for t in re.split(r"\W+", question.lower()) if len(t) > 1]
+        return zh_terms + en_terms
 
     def retrieve(self, question: str, top_k_nodes: int = 5, top_k_edges: int = 10) -> Dict[str, List[dict]]:
         query_mentions = extract_entities(question, doc_id="query")
@@ -21,8 +27,10 @@ class GraphRetriever:
                 candidate_nodes[node.node_id] = max(candidate_nodes.get(node.node_id, 0), score)
 
         if not candidate_nodes:
+            tokens = self._fallback_tokens(question)
             for node in self.graph_store.nodes.values():
-                if any(token in node.name.lower() for token in question.lower().split()):
+                node_text = f"{node.name} {' '.join(node.aliases)}".lower()
+                if any(token.lower() in node_text for token in tokens):
                     candidate_nodes[node.node_id] = 1
 
         ranked_nodes = sorted(candidate_nodes.items(), key=lambda x: x[1], reverse=True)[:top_k_nodes]
@@ -46,10 +54,26 @@ class GraphRetriever:
             for edge in self.graph_store.neighbors(node_id):
                 if len(edges_payload) >= top_k_edges:
                     break
+                source_node = self.graph_store.nodes.get(edge.source)
+                target_node = self.graph_store.nodes.get(edge.target)
+                source_doc_id = ""
+                target_doc_id = ""
+                if source_node:
+                    source_doc_id = source_node.metadata.get("first_doc_id", "")
+                    if not source_doc_id and source_node.mentions:
+                        source_doc_id = source_node.mentions[0].doc_id
+                if target_node:
+                    target_doc_id = target_node.metadata.get("first_doc_id", "")
+                    if not target_doc_id and target_node.mentions:
+                        target_doc_id = target_node.mentions[0].doc_id
                 edges_payload.append(
                     {
                         "source": edge.source,
                         "target": edge.target,
+                        "source_name": source_node.name if source_node else edge.source,
+                        "target_name": target_node.name if target_node else edge.target,
+                        "source_doc_id": source_doc_id,
+                        "target_doc_id": target_doc_id,
                         "relation": edge.relation,
                         "evidence": edge.evidence or "",
                     }

@@ -1,0 +1,1 @@
+{"entities": [{"name": "盗窃罪", "type": "Crime"}], "triples": [{"subject": "盗窃罪", "relation": "APPLIES_TO", "object": "有期徒刑"}, {"subject": "盗窃罪", "relation": "APPLIES_TO", "object": "罚金"}, {"subject": "盗窃罪", "relation": "APPLIES_TO", "object": "退赔被害单位损失"}]}

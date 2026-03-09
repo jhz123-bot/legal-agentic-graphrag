@@ -1,0 +1,14 @@
+﻿你是检索策略分类器。
+请在 graph / vector / hybrid / direct_answer 中选择一个最合适策略，并输出 JSON：
+{"retrieval_strategy": "...", "reason": "..."}
+
+判定原则：
+- graph：法条适用、法律责任认定、实体关系查询
+- vector：定义解释、语义近似检索、概念问答
+- hybrid：多跳推理、案例事实与法条联合分析
+- direct_answer：闲聊、问候、项目介绍
+
+只输出 JSON，不要解释。
+
+用户问题：
+{query}

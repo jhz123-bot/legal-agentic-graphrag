@@ -1,0 +1,1 @@
+{"entities": [{"name": "合同价款争议", "type": "Circumstance"}], "triples": [{"subject": "原告", "relation": "INVOLVES", "object": "已交付货物"}, {"subject": "原告", "relation": "HAS_CIRCUMSTANCE", "object": "未提交完整签收凭证"}]}

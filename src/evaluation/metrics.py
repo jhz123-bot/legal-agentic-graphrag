@@ -51,3 +51,70 @@ def compute_reflection_trigger_rate(triggered_flags: List[bool]) -> float:
     if not triggered_flags:
         return 0.0
     return sum(1 for flag in triggered_flags if flag) / len(triggered_flags)
+
+
+def compute_citation_correctness(citations: List[dict], evidence_pack: dict) -> float:
+    if not citations:
+        return 0.0
+    valid_ids = set()
+    for ev in evidence_pack.get("candidate_evidence", []):
+        eid = ev.get("evidence_id")
+        if eid:
+            valid_ids.add(str(eid))
+    for ev in evidence_pack.get("ranked_paths", []):
+        eid = ev.get("evidence_id")
+        if eid:
+            valid_ids.add(str(eid))
+    for ev in evidence_pack.get("reranked_paths", []):
+        eid = ev.get("evidence_id")
+        if eid:
+            valid_ids.add(str(eid))
+
+    if not valid_ids:
+        return 0.0
+    hits = 0
+    for c in citations:
+        eid = str(c.get("evidence_id", ""))
+        if eid and eid in valid_ids:
+            hits += 1
+    return hits / len(citations)
+
+
+def compute_citation_coverage(claims: List[dict], citations: List[dict], grounded_evidence: List[str] | None = None) -> float:
+    if not claims:
+        if grounded_evidence:
+            citation_ids = {str(c.get("evidence_id", "")) for c in citations if c.get("evidence_id")}
+            grounded_ids = {str(i) for i in grounded_evidence if i}
+            if not grounded_ids:
+                return 0.0
+            return len(citation_ids.intersection(grounded_ids)) / len(grounded_ids)
+        return 1.0
+    citation_ids = {str(c.get("evidence_id", "")) for c in citations if c.get("evidence_id")}
+    if not citation_ids:
+        return 0.0
+    covered = 0
+    total = 0
+    for claim in claims:
+        if not isinstance(claim, dict):
+            continue
+        total += 1
+        support_ids = {str(i) for i in claim.get("supporting_evidence_ids", []) if i}
+        if support_ids and support_ids.intersection(citation_ids):
+            covered += 1
+            continue
+        # fallback: lexical coverage between claim text and citation snippet/title
+        claim_text = _norm(str(claim.get("claim", "")))
+        if claim_text:
+            for c in citations:
+                blob = _norm(" ".join([str(c.get("snippet", "")), str(c.get("title", "")), str(c.get("law_name", "")), str(c.get("article_no", ""))]))
+                if claim_text and any(tok and tok in blob for tok in claim_text.split()):
+                    covered += 1
+                    break
+    if total == 0:
+        if grounded_evidence:
+            grounded_ids = {str(i) for i in grounded_evidence if i}
+            if not grounded_ids:
+                return 0.0
+            return len(citation_ids.intersection(grounded_ids)) / len(grounded_ids)
+        return 1.0
+    return covered / total

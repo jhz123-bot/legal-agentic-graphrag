@@ -1,0 +1,1 @@
+{"entities": [{"name": "不履行合同义务或者履行不符合约定的", "type": "Crime"}, {"name": "违约责任", "type": "Liability"}], "triples": [{"subject": "不履行合同义务或者履行不符合约定的", "relation": "APPLIES_TO", "object": "继续履行、补救措施、赔偿损失等违约责任"}]}

@@ -1,0 +1,1 @@
+{"entities": [{"name": "高额违约金", "type": "Crime"}, {"name": "违约", "type": "Circumstance"}], "triples": [{"subject": "法院", "relation": "DECIDED_BY", "object": "下调违约金数额"}]}

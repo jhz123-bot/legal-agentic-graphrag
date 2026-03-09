@@ -1,0 +1,15 @@
+﻿{
+  "layer": "faq",
+  "required_fields": [
+    "question",
+    "answer",
+    "topic",
+    "related_laws"
+  ],
+  "field_types": {
+    "question": "string",
+    "answer": "string",
+    "topic": "string",
+    "related_laws": "array[string]"
+  }
+}

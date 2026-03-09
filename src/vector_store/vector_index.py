@@ -34,6 +34,12 @@ class FaissVectorIndex:
                 {
                     "chunk_id": c.chunk_id,
                     "doc_id": c.doc_id,
+                    "doc_type": getattr(c, "doc_type", ""),
+                    "source_type": getattr(c, "source_type", ""),
+                    "law_name": getattr(c, "law_name", ""),
+                    "article_no": getattr(c, "article_no", ""),
+                    "case_id": getattr(c, "case_id", ""),
+                    "section": getattr(c, "section", ""),
                     "title": c.title,
                     "text": c.text,
                     "score": float(score),

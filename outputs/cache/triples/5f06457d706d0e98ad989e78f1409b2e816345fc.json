@@ -1,0 +1,1 @@
+{"entities": [{"name": "当事人一方明确表示或者以自己的行为表明不履行主要债务", "type": "Crime"}, {"name": "违约责任", "type": "Liability"}], "triples": [{"subject": "对方", "relation": "APPLIES_TO", "object": "《中华人民共和国民法典》合同编"}]}

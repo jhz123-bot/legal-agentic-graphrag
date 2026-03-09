@@ -1,0 +1,70 @@
+{
+  "phase": "round4",
+  "missing_fields": {
+    "statutes": {
+      "doc_id": 0,
+      "title": 0,
+      "law_name": 0,
+      "article_no": 0,
+      "content": 0
+    },
+    "cases": {
+      "doc_id": 0,
+      "case_id": 0,
+      "title": 0,
+      "court": 0,
+      "case_type": 0,
+      "content": 0
+    },
+    "faqs": {
+      "faq_id": 0,
+      "question": 0,
+      "answer": 0,
+      "topic": 0
+    }
+  },
+  "length_checks": {
+    "statutes": {
+      "too_short": 0,
+      "too_long": 0
+    },
+    "cases": {
+      "too_short": 0,
+      "too_long": 0
+    },
+    "faqs_answer": {
+      "too_short": 0,
+      "too_long": 0
+    }
+  },
+  "conflict_checks": {
+    "statute_article_no_conflicts": 0,
+    "case_id_conflicts": 0,
+    "faq_question_conflicts": 0
+  },
+  "dedup": {
+    "statutes": {
+      "removed": 20,
+      "reasons": {
+        "duplicate_article_no": 20,
+        "duplicate_title": 0,
+        "duplicate_content": 0
+      }
+    },
+    "cases": {
+      "removed": 20,
+      "reasons": {
+        "duplicate_case_id": 20,
+        "duplicate_title": 0,
+        "duplicate_content": 0
+      }
+    },
+    "faqs": {
+      "removed": 10,
+      "reasons": {
+        "duplicate_question_exact": 10,
+        "duplicate_question_near": 0
+      }
+    }
+  }
+}
